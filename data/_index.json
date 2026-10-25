@@ -1,0 +1,63 @@
+{
+ "files": {
+  "_index.json": {
+   "size_bytes": 1305
+  },
+  "exports.ndjson": {
+   "size_bytes": 654,
+   "records": 6,
+   "index_file": null
+  },
+  "function_classes.ndjson": {
+   "size_bytes": 4575361,
+   "records": 22489,
+   "index_file": "_index/function_classes.idx.json",
+   "indexed_keys": 22489
+  },
+  "function_strings.ndjson": {
+   "size_bytes": 40826596,
+   "records": 72946,
+   "index_file": "_index/function_strings.idx.json",
+   "indexed_keys": 72946
+  },
+  "functions.tsv": {
+   "size_bytes": 16404105,
+   "lines": 244975,
+   "records": 244974
+  },
+  "imports.ndjson": {
+   "size_bytes": 169378,
+   "records": 744,
+   "index_file": null
+  },
+  "index_categorized.txt": {
+   "size_bytes": 5281867,
+   "lines": 98394
+  },
+  "pe_info.json": {
+   "size_bytes": 84076
+  },
+  "rtti_types.txt": {
+   "size_bytes": 1011973,
+   "lines": 18826
+  },
+  "rtti_vtables.tsv": {
+   "size_bytes": 1240160,
+   "lines": 20567,
+   "records": 20566
+  },
+  "string_functions.ndjson": {
+   "size_bytes": 17905978,
+   "records": 51932,
+   "index_file": "_index/string_functions.idx.json",
+   "indexed_keys": 51932,
+   "index_file_byoff": "_index/string_functions_byoff.idx.json",
+   "indexed_keys_byoff": 51932
+  },
+  "symbols.ndjson": {
+   "size_bytes": 19533698,
+   "records": 128361,
+   "index_file": null
+  }
+ }
+}

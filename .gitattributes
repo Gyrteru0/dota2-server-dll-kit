@@ -1,0 +1,20 @@
+# Все текстовые данные — UTF-8, LF. Это важно: файлы читают и люди, и ИИ-агенты,
+# и скрипты на разных ОС. Смешанные окончания строк ломают побайтовые смещения
+# в data/_index/*.idx.json (seek() по оффсету предполагает LF).
+* text=auto eol=lf
+
+*.txt    text eol=lf encoding=UTF-8
+*.ndjson text eol=lf encoding=UTF-8
+*.json   text eol=lf encoding=UTF-8
+*.tsv    text eol=lf encoding=UTF-8
+*.csv    text eol=lf encoding=UTF-8
+*.md     text eol=lf encoding=UTF-8
+*.py     text eol=lf encoding=UTF-8
+
+# Большие данные не диффить (экономия памяти git и GitHub UI)
+data/*.ndjson -diff linguist-generated=true
+data/*.tsv    -diff linguist-generated=true
+data/extras/* -diff linguist-generated=true
+
+*.dll binary
+*.pdb binary

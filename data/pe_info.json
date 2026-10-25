@@ -1,0 +1,4008 @@
+{
+ "file": "server.dll",
+ "size_bytes": 88194712,
+ "sha256": "f7b7d300c9d32ddd07e9b211026288c8c017528938486414a0a01037981cc566",
+ "md5": "6178027dd7ae966282cf36598e7e0408",
+ "pe_type": "PE32+",
+ "machine": "0x8664",
+ "machine_name": "AMD64",
+ "num_sections": 5,
+ "timestamp": 1792859597,
+ "timestamp_utc": "2026-10-24T16:33:17+00:00",
+ "image_base": "0x180000000",
+ "entry_point_rva": "0x2da21b8",
+ "entry_point_va": "0x182da21b8",
+ "subsystem": 2,
+ "characteristics": "0x2022",
+ "dll_characteristics": "0x160",
+ "sections": [
+  {
+   "name": ".text",
+   "virtual_address": "0x1000",
+   "virtual_size": 48677088,
+   "raw_offset": "0x400",
+   "raw_size": 48677376,
+   "characteristics": "0x60000020",
+   "entropy": 6.676,
+   "in_file_only_bytes": 48677088,
+   "bss_bytes": 0
+  },
+  {
+   "name": ".rdata",
+   "virtual_address": "0x2e6e000",
+   "virtual_size": 27540618,
+   "raw_offset": "0x2e6c600",
+   "raw_size": 27540992,
+   "characteristics": "0x40000040",
+   "entropy": 4.879,
+   "in_file_only_bytes": 27540618,
+   "bss_bytes": 0
+  },
+  {
+   "name": ".data",
+   "virtual_address": "0x48b2000",
+   "virtual_size": 11803900,
+   "raw_offset": "0x48b0400",
+   "raw_size": 4494848,
+   "characteristics": "0xc0000040",
+   "entropy": 3.947,
+   "in_file_only_bytes": 4494848,
+   "bss_bytes": 7309052
+  },
+  {
+   "name": ".pdata",
+   "virtual_address": "0x53f4000",
+   "virtual_size": 2939688,
+   "raw_offset": "0x4cf9a00",
+   "raw_size": 2939904,
+   "characteristics": "0x40000040",
+   "entropy": 7.138,
+   "in_file_only_bytes": 2939688,
+   "bss_bytes": 0
+  },
+  {
+   "name": ".reloc",
+   "virtual_address": "0x56c2000",
+   "virtual_size": 4529020,
+   "raw_offset": "0x4fc7600",
+   "raw_size": 4529152,
+   "characteristics": "0x42000040",
+   "entropy": 5.451,
+   "in_file_only_bytes": 4529020,
+   "bss_bytes": 0
+  }
+ ],
+ "data_directories": [
+  {
+   "name": "EXPORT",
+   "rva": "0x48aa370",
+   "size": 244,
+   "present_in_file": true,
+   "file_offset": "0x48a8970"
+  },
+  {
+   "name": "IMPORT",
+   "rva": "0x48aa464",
+   "size": 160,
+   "present_in_file": true,
+   "file_offset": "0x48a8a64"
+  },
+  {
+   "name": "EXCEPTION",
+   "rva": "0x53f4000",
+   "size": 2939688,
+   "present_in_file": true,
+   "file_offset": "0x4cf9a00"
+  },
+  {
+   "name": "SECURITY",
+   "rva": "0x5419200",
+   "size": 11416,
+   "present_in_file": true,
+   "file_offset": "0x4d1ec00"
+  },
+  {
+   "name": "BASERELOC",
+   "rva": "0x56c2000",
+   "size": 4529020,
+   "present_in_file": true,
+   "file_offset": "0x4fc7600"
+  },
+  {
+   "name": "DEBUG",
+   "rva": "0x4287310",
+   "size": 84,
+   "present_in_file": true,
+   "file_offset": "0x4285910"
+  },
+  {
+   "name": "TLS",
+   "rva": "0x4287500",
+   "size": 40,
+   "present_in_file": true,
+   "file_offset": "0x4285b00"
+  },
+  {
+   "name": "LOAD_CONFIG",
+   "rva": "0x42871d0",
+   "size": 320,
+   "present_in_file": true,
+   "file_offset": "0x42857d0"
+  },
+  {
+   "name": "IAT",
+   "rva": "0x2e6e000",
+   "size": 6008,
+   "present_in_file": true,
+   "file_offset": "0x2e6c600"
+  }
+ ],
+ "pdb": {
+  "path": "C:\\buildworker\\source2_dota_rel_2019_win64\\build\\_build_\\game\\server\\_vpc_server_dota\\unity\\win64\\_msvc_\\Retail\\server.pdb",
+  "guid": "698B48EE6F0A41BCAE586273770EE7BE",
+  "age": 30
+ },
+ "authenticode": {
+  "file_offset": "0x5419200",
+  "size": 11416,
+  "readable_fragments": [
+   "DigiCert SHA256 RSA4096 Timestamp Responder 2026 10",
+   "http://crl3.digicert.com/DigiCertTrustedRootG4.crl0",
+   "http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 ",
+   "http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0",
+   "http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C",
+   "http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E",
+   "DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1",
+   "DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10",
+   "DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1",
+   "DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA10",
+   "Bellevue1",
+   "DigiCert Assured ID Root CA0",
+   "DigiCert Inc1",
+   "DigiCert Trusted Root G40",
+   "DigiCert, Inc.1;09",
+   "DigiCert, Inc.1A0?",
+   "Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S",
+   "Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0",
+   "Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0 ",
+   "PAq=?Mp#",
+   "Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0",
+   "Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_",
+   "Valve Corp.0",
+   "Valve Corp.1",
+   "Washington1",
+   "http://ocsp.digicert.com0A",
+   "http://ocsp.digicert.com0C",
+   "http://ocsp.digicert.com0\\",
+   "http://ocsp.digicert.com0]",
+   "http://www.digicert.com/CPS0",
+   "www.digicert.com1!0",
+   "www.digicert.com1$0\""
+  ]
+ },
+ "exports": {
+  "dll_name": "server.dll",
+  "ordinal_base": 1,
+  "num_functions": 6,
+  "num_names": 6,
+  "entries": [
+   {
+    "ordinal": 1,
+    "name": "BinaryProperties_GetValue",
+    "rva": "0x1dcfe00",
+    "va": "0x181dcfe00",
+    "forwarder": false
+   },
+   {
+    "ordinal": 2,
+    "name": "CreateInterface",
+    "rva": "0x2d85b70",
+    "va": "0x182d85b70",
+    "forwarder": false
+   },
+   {
+    "ordinal": 3,
+    "name": "ExtractModuleMetadata",
+    "rva": "0x1dd0580",
+    "va": "0x181dd0580",
+    "forwarder": false
+   },
+   {
+    "ordinal": 4,
+    "name": "GetResourceManifestCount",
+    "rva": "0x2d9a2e0",
+    "va": "0x182d9a2e0",
+    "forwarder": false
+   },
+   {
+    "ordinal": 5,
+    "name": "GetResourceManifests",
+    "rva": "0x2d9a2f0",
+    "va": "0x182d9a2f0",
+    "forwarder": false
+   },
+   {
+    "ordinal": 6,
+    "name": "InstallSchemaBindings",
+    "rva": "0x2d9c2d0",
+    "va": "0x182d9c2d0",
+    "forwarder": false
+   }
+  ]
+ },
+ "imports": {
+  "num_dlls": 7,
+  "num_functions": 744,
+  "dlls": [
+   {
+    "name": "USER32.dll",
+    "num_functions": 16,
+    "iat_rva": "0x2e6e4a8",
+    "functions": [
+     {
+      "ordinal": null,
+      "name": "GetProcessWindowStation",
+      "hint": 431
+     },
+     {
+      "ordinal": null,
+      "name": "GetUserObjectInformationW",
+      "hint": 473
+     },
+     {
+      "ordinal": null,
+      "name": "MessageBoxW",
+      "hint": 650
+     },
+     {
+      "ordinal": null,
+      "name": "SetWindowLongPtrA",
+      "hint": 890
+     },
+     {
+      "ordinal": null,
+      "name": "GetWindowLongPtrA",
+      "hint": 488
+     },
+     {
+      "ordinal": null,
+      "name": "ScreenToClient",
+      "hint": 777
+     },
+     {
+      "ordinal": null,
+      "name": "GetCursorPos",
+      "hint": 321
+     },
+     {
+      "ordinal": null,
+      "name": "InvalidateRect",
+      "hint": 547
+     },
+     {
+      "ordinal": null,
+      "name": "EndPaint",
+      "hint": 244
+     },
+     {
+      "ordinal": null,
+      "name": "BeginPaint",
+      "hint": 17
+     },
+     {
+      "ordinal": null,
+      "name": "GetDC",
+      "hint": 322
+     },
+     {
+      "ordinal": null,
+      "name": "SetActiveWindow",
+      "hint": 795
+     },
+     {
+      "ordinal": null,
+      "name": "GetActiveWindow",
+      "hint": 282
+     },
+     {
+      "ordinal": null,
+      "name": "DestroyWindow",
+      "hint": 181
+     },
+     {
+      "ordinal": null,
+      "name": "SetWindowTextA",
+      "hint": 898
+     },
+     {
+      "ordinal": null,
+      "name": "DefWindowProcA",
+      "hint": 166
+     }
+    ]
+   },
+   {
+    "name": "GDI32.dll",
+    "num_functions": 22,
+    "iat_rva": "0x2e6e020",
+    "functions": [
+     {
+      "ordinal": null,
+      "name": "CreateRectRgn",
+      "hint": 83
+     },
+     {
+      "ordinal": null,
+      "name": "SelectClipRgn",
+      "hint": 873
+     },
+     {
+      "ordinal": null,
+      "name": "ExtSelectClipRgn",
+      "hint": 473
+     },
+     {
+      "ordinal": null,
+      "name": "TextOutA",
+      "hint": 940
+     },
+     {
+      "ordinal": null,
+      "name": "MoveToEx",
+      "hint": 772
+     },
+     {
+      "ordinal": null,
+      "name": "CreateDIBSection",
+      "hint": 55
+     },
+     {
+      "ordinal": null,
+      "name": "AngleArc",
+      "hint": 8
+     },
+     {
+      "ordinal": null,
+      "name": "StretchBlt",
+      "hint": 935
+     },
+     {
+      "ordinal": null,
+      "name": "SetPixel",
+      "hint": 911
+     },
+     {
+      "ordinal": null,
+      "name": "GetObjectA",
+      "hint": 690
+     },
+     {
+      "ordinal": null,
+      "name": "BitBlt",
+      "hint": 19
+     },
+     {
+      "ordinal": null,
+      "name": "CreateCompatibleBitmap",
+      "hint": 48
+     },
+     {
+      "ordinal": null,
+      "name": "CreateCompatibleDC",
+      "hint": 49
+     },
+     {
+      "ordinal": null,
+      "name": "CreateFontIndirectA",
+      "hint": 64
+     },
+     {
+      "ordinal": null,
+      "name": "DeleteDC",
+      "hint": 389
+     },
+     {
+      "ordinal": null,
+      "name": "DeleteObject",
+      "hint": 392
+     },
+     {
+      "ordinal": null,
+      "name": "GetStockObject",
+      "hint": 709
+     },
+     {
+      "ordinal": null,
+      "name": "GetTextExtentPoint32A",
+      "hint": 725
+     },
+     {
+      "ordinal": null,
+      "name": "PatBlt",
+      "hint": 784
+     },
+     {
+      "ordinal": null,
+      "name": "SelectObject",
+      "hint": 875
+     },
+     {
+      "ordinal": null,
+      "name": "SetDCBrushColor",
+      "hint": 889
+     },
+     {
+      "ordinal": null,
+      "name": "SetDCPenColor",
+      "hint": 890
+     }
+    ]
+   },
+   {
+    "name": "WS2_32.dll",
+    "num_functions": 15,
+    "iat_rva": "0x2e6e530",
+    "functions": [
+     {
+      "ordinal": 1,
+      "name": null,
+      "iat": "Ord1"
+     },
+     {
+      "ordinal": 2,
+      "name": null,
+      "iat": "Ord2"
+     },
+     {
+      "ordinal": 3,
+      "name": null,
+      "iat": "Ord3"
+     },
+     {
+      "ordinal": 10,
+      "name": null,
+      "iat": "Ord10"
+     },
+     {
+      "ordinal": 9,
+      "name": null,
+      "iat": "Ord9"
+     },
+     {
+      "ordinal": 13,
+      "name": null,
+      "iat": "Ord13"
+     },
+     {
+      "ordinal": 16,
+      "name": null,
+      "iat": "Ord16"
+     },
+     {
+      "ordinal": 18,
+      "name": null,
+      "iat": "Ord18"
+     },
+     {
+      "ordinal": 19,
+      "name": null,
+      "iat": "Ord19"
+     },
+     {
+      "ordinal": 21,
+      "name": null,
+      "iat": "Ord21"
+     },
+     {
+      "ordinal": 22,
+      "name": null,
+      "iat": "Ord22"
+     },
+     {
+      "ordinal": 23,
+      "name": null,
+      "iat": "Ord23"
+     },
+     {
+      "ordinal": 111,
+      "name": null,
+      "iat": "Ord111"
+     },
+     {
+      "ordinal": 112,
+      "name": null,
+      "iat": "Ord112"
+     },
+     {
+      "ordinal": 151,
+      "name": null,
+      "iat": "Ord151"
+     }
+    ]
+   },
+   {
+    "name": "steam_api64.dll",
+    "num_functions": 13,
+    "iat_rva": "0x2e6e5b0",
+    "functions": [
+     {
+      "ordinal": null,
+      "name": "SteamGameServer_GetHSteamUser",
+      "hint": 1033
+     },
+     {
+      "ordinal": null,
+      "name": "SteamInternal_ContextInit",
+      "hint": 1039
+     },
+     {
+      "ordinal": null,
+      "name": "SteamInternal_FindOrCreateUserInterface",
+      "hint": 1042
+     },
+     {
+      "ordinal": null,
+      "name": "SteamInternal_FindOrCreateGameServerInterface",
+      "hint": 1041
+     },
+     {
+      "ordinal": null,
+      "name": "SteamAPI_RegisterCallback",
+      "hint": 921
+     },
+     {
+      "ordinal": null,
+      "name": "SteamAPI_UnregisterCallback",
+      "hint": 1012
+     },
+     {
+      "ordinal": null,
+      "name": "SteamAPI_RegisterCallResult",
+      "hint": 920
+     },
+     {
+      "ordinal": null,
+      "name": "SteamAPI_UnregisterCallResult",
+      "hint": 1011
+     },
+     {
+      "ordinal": null,
+      "name": "SteamGameServer_GetHSteamPipe",
+      "hint": 1032
+     },
+     {
+      "ordinal": null,
+      "name": "SteamInternal_CreateInterface",
+      "hint": 1040
+     },
+     {
+      "ordinal": null,
+      "name": "SteamAPI_RunCallbacks",
+      "hint": 924
+     },
+     {
+      "ordinal": null,
+      "name": "SteamGameServer_RunCallbacks",
+      "hint": 1037
+     },
+     {
+      "ordinal": null,
+      "name": "SteamAPI_GetHSteamUser",
+      "hint": 3
+     }
+    ]
+   },
+   {
+    "name": "tier0.dll",
+    "num_functions": 554,
+    "iat_rva": "0x2e6e620",
+    "functions": [
+     {
+      "ordinal": null,
+      "name": "V_expf",
+      "hint": 2384
+     },
+     {
+      "ordinal": null,
+      "name": "V_fmodf",
+      "hint": 2394
+     },
+     {
+      "ordinal": null,
+      "name": "V_logf",
+      "hint": 2444
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_IsInDebugSession",
+      "hint": 1861
+     },
+     {
+      "ordinal": null,
+      "name": "V_StripTrailingWhitespace",
+      "hint": 2293
+     },
+     {
+      "ordinal": null,
+      "name": "V_AreFileNamesEqual",
+      "hint": 2149
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_TickDiffSecF",
+      "hint": 1960
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_CPUTickFrequency",
+      "hint": 1732
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_IsInTestMode",
+      "hint": 1863
+     },
+     {
+      "ordinal": null,
+      "name": "?AppendConcat@CBufferString@@QEAAPEBDHPEBQEBDPEBH_N@Z",
+      "hint": 327
+     },
+     {
+      "ordinal": null,
+      "name": "?ExtractFilePath@CBufferString@@QEAAPEBDPEBD_N@Z",
+      "hint": 512
+     },
+     {
+      "ordinal": null,
+      "name": "?RemoveFilePath@CBufferString@@QEAAPEBDXZ",
+      "hint": 1122
+     },
+     {
+      "ordinal": null,
+      "name": "?StripExtension@CBufferString@@QEAAPEBD_N@Z",
+      "hint": 1337
+     },
+     {
+      "ordinal": null,
+      "name": "?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@PEBULoggingMetaData_t@@PEBDZZ",
+      "hint": 958
+     },
+     {
+      "ordinal": null,
+      "name": "??0?$CUniformRandomStreamImpl@VCThreadNullMutex@@@@QEAA@XZ",
+      "hint": 3
+     },
+     {
+      "ordinal": null,
+      "name": "?SetSeed@?$CUniformRandomStreamImpl@VCThreadNullMutex@@@@QEAAXH@Z",
+      "hint": 1274
+     },
+     {
+      "ordinal": null,
+      "name": "?RandomInt@?$CUniformRandomStreamImpl@VCThreadNullMutex@@@@QEAAHHH@Z",
+      "hint": 1086
+     },
+     {
+      "ordinal": null,
+      "name": "?RandomFloatExp@?$CUniformRandomStreamImpl@VCThreadNullMutex@@@@QEAAMMMM@Z",
+      "hint": 1080
+     },
+     {
+      "ordinal": null,
+      "name": "?Purge@CUtlString@@QEAAXXZ",
+      "hint": 1054
+     },
+     {
+      "ordinal": null,
+      "name": "?Replace@CUtlString@@QEBA?AV1@DD@Z",
+      "hint": 1136
+     },
+     {
+      "ordinal": null,
+      "name": "?EnsureCapacity@CUtlBuffer@@QEAAXH@Z",
+      "hint": 464
+     },
+     {
+      "ordinal": null,
+      "name": "?SetExternalBuffer@CUtlBuffer@@QEAAXPEAXHHW4BufferFlags_t@1@@Z",
+      "hint": 1246
+     },
+     {
+      "ordinal": null,
+      "name": "?SeekPut@CUtlBuffer@@QEAAXW4SeekType_t@1@H@Z",
+      "hint": 1218
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_GetModuleFilename",
+      "hint": 1810
+     },
+     {
+      "ordinal": null,
+      "name": "??0CTSListBase@@QEAA@XZ",
+      "hint": 67
+     },
+     {
+      "ordinal": null,
+      "name": "?Detach@CTSListBase@@QEAAPEAUTSLNodeBase_t@@XZ",
+      "hint": 427
+     },
+     {
+      "ordinal": null,
+      "name": "?InternalPush@CTSListBase@@AEAAXPEAUTSLNodeBase_t@@@Z",
+      "hint": 834
+     },
+     {
+      "ordinal": null,
+      "name": "?InternalPop@CTSListBase@@AEAAPEAUTSLNodeBase_t@@XZ",
+      "hint": 833
+     },
+     {
+      "ordinal": null,
+      "name": "?LoadFromFile@KeyValues@@QEAA_NPEAVIFileSystem@@PEBD1P6A_N1PEAX@Z21@Z",
+      "hint": 928
+     },
+     {
+      "ordinal": null,
+      "name": "?LoadFromBuffer@KeyValues@@QEAA_NPEBDAEAVCUtlBuffer@@PEAVIFileSystem@@0P6A_N0PEAX@ZPEAVIKeyValuesErrorSpew@@30@Z",
+      "hint": 927
+     },
+     {
+      "ordinal": null,
+      "name": "?GetFirstTrueSubKey@KeyValues@@QEAAPEAV1@XZ",
+      "hint": 700
+     },
+     {
+      "ordinal": null,
+      "name": "?GetNextTrueSubKey@KeyValues@@QEAAPEAV1@XZ",
+      "hint": 744
+     },
+     {
+      "ordinal": null,
+      "name": "?GetFirstValue@KeyValues@@QEAAPEAV1@XZ",
+      "hint": 701
+     },
+     {
+      "ordinal": null,
+      "name": "?GetNextValue@KeyValues@@QEAAPEAV1@XZ",
+      "hint": 745
+     },
+     {
+      "ordinal": null,
+      "name": "?GetPtr@KeyValues@@QEBAPEAXPEBDPEAX@Z",
+      "hint": 756
+     },
+     {
+      "ordinal": null,
+      "name": "?GetColor@KeyValues@@QEBA?AVColor@@PEBDAEBV2@@Z",
+      "hint": 665
+     },
+     {
+      "ordinal": null,
+      "name": "??0CKeyValuesDumpContextToBufferString@@QEAA@PEAVCBufferString@@@Z",
+      "hint": 41
+     },
+     {
+      "ordinal": null,
+      "name": "??0CUtlScratchMemoryPool@@QEAA@IIPEAX_N@Z",
+      "hint": 98
+     },
+     {
+      "ordinal": null,
+      "name": "??1CUtlScratchMemoryPool@@QEAA@XZ",
+      "hint": 167
+     },
+     {
+      "ordinal": null,
+      "name": "?AllocAligned@CUtlScratchMemoryPool@@QEAAPEAXHH@Z",
+      "hint": 309
+     },
+     {
+      "ordinal": null,
+      "name": "?Purge@CUtlScratchMemoryPool@@QEAAXXZ",
+      "hint": 1053
+     },
+     {
+      "ordinal": null,
+      "name": "ThreadMultiWaitObjectSetDestroy",
+      "hint": 2078
+     },
+     {
+      "ordinal": null,
+      "name": "??0CThreadMultiWaitEvent@@QEAA@_N@Z",
+      "hint": 77
+     },
+     {
+      "ordinal": null,
+      "name": "??1CThreadMultiWaitEvent@@QEAA@XZ",
+      "hint": 158
+     },
+     {
+      "ordinal": null,
+      "name": "?Set@CThreadMultiWaitEvent@@QEAAXXZ",
+      "hint": 1226
+     },
+     {
+      "ordinal": null,
+      "name": "VProf_FindOrCreateCounter",
+      "hint": 2145
+     },
+     {
+      "ordinal": null,
+      "name": "LOG_CONSOLE",
+      "hint": 1634
+     },
+     {
+      "ordinal": null,
+      "name": "V_Int8ToString_Unsafe",
+      "hint": 2209
+     },
+     {
+      "ordinal": null,
+      "name": "?AppendFormat@CBufferString@@QEAAHPEBDZZ",
+      "hint": 328
+     },
+     {
+      "ordinal": null,
+      "name": "V_StringToInt8",
+      "hint": 2271
+     },
+     {
+      "ordinal": null,
+      "name": "??4CUtlBinaryBlock@@QEAAAEAV0@AEBV0@@Z",
+      "hint": 220
+     },
+     {
+      "ordinal": null,
+      "name": "??4CUtlBinaryBlock@@QEAAAEAV0@$$QEAV0@@Z",
+      "hint": 219
+     },
+     {
+      "ordinal": null,
+      "name": "??8CUtlBinaryBlock@@QEBA_NAEBV0@@Z",
+      "hint": 232
+     },
+     {
+      "ordinal": null,
+      "name": "?DebugPrintKV3@@YAXPEBVKeyValues3@@@Z",
+      "hint": 414
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_DemangleRawTypeName",
+      "hint": 1754
+     },
+     {
+      "ordinal": null,
+      "name": "FindOrCreateQuantizedFloatEncoderAlias",
+      "hint": 1577
+     },
+     {
+      "ordinal": null,
+      "name": "?SeekGet@CUtlBuffer@@QEAAXW4SeekType_t@1@H@Z",
+      "hint": 1217
+     },
+     {
+      "ordinal": null,
+      "name": "?FixSlashes@CBufferString@@QEAAPEBDD@Z",
+      "hint": 591
+     },
+     {
+      "ordinal": null,
+      "name": "?LoadKV3Text_NoHeader@@YA_NPEAVKeyValues3@@PEAVCUtlString@@PEBDAEBUKV3ID_t@@2I@Z",
+      "hint": 941
+     },
+     {
+      "ordinal": null,
+      "name": "V_StringToInt64",
+      "hint": 2269
+     },
+     {
+      "ordinal": null,
+      "name": "KeyValuesSystem",
+      "hint": 1631
+     },
+     {
+      "ordinal": null,
+      "name": "KeyValuesToJSON",
+      "hint": 1632
+     },
+     {
+      "ordinal": null,
+      "name": "?GetNameSymbol@KeyValues@@QEBA?AVHKeySymbol@@XZ",
+      "hint": 738
+     },
+     {
+      "ordinal": null,
+      "name": "?Internal_GetInt@CKeyValues_Data@@IEBAHXZ",
+      "hint": 843
+     },
+     {
+      "ordinal": null,
+      "name": "?Internal_GetFloat@CKeyValues_Data@@IEBAMXZ",
+      "hint": 842
+     },
+     {
+      "ordinal": null,
+      "name": "?AddInt@KeyValues@@QEAAXPEBDH@Z",
+      "hint": 290
+     },
+     {
+      "ordinal": null,
+      "name": "?Append@CUtlString@@QEAAXPEBD@Z",
+      "hint": 324
+     },
+     {
+      "ordinal": null,
+      "name": "?Left@CUtlString@@QEBA?AV1@H@Z",
+      "hint": 924
+     },
+     {
+      "ordinal": null,
+      "name": "?IsEmpty@KeyValues@@QEBA_NPEBD@Z",
+      "hint": 875
+     },
+     {
+      "ordinal": null,
+      "name": "?AddFloat@KeyValues@@QEAAXPEBDM@Z",
+      "hint": 289
+     },
+     {
+      "ordinal": null,
+      "name": "?AddPtr@KeyValues@@QEAAXPEBDPEAX@Z",
+      "hint": 295
+     },
+     {
+      "ordinal": null,
+      "name": "RandomGaussianFloat",
+      "hint": 1990
+     },
+     {
+      "ordinal": null,
+      "name": "V_log10f",
+      "hint": 2439
+     },
+     {
+      "ordinal": null,
+      "name": "?CopySubkeys@KeyValues@@QEBAXPEAV1@@Z",
+      "hint": 405
+     },
+     {
+      "ordinal": null,
+      "name": "V_powf",
+      "hint": 2456
+     },
+     {
+      "ordinal": null,
+      "name": "V_roundf",
+      "hint": 2463
+     },
+     {
+      "ordinal": null,
+      "name": "_V_StringAfterPrefixCaseSensitive",
+      "hint": 2584
+     },
+     {
+      "ordinal": null,
+      "name": "?Resize@CVariableBitStringBase@@QEAAXH@Z",
+      "hint": 1162
+     },
+     {
+      "ordinal": null,
+      "name": "?Internal_GetPtr@CKeyValues_Data@@IEBAPEAXXZ",
+      "hint": 847
+     },
+     {
+      "ordinal": null,
+      "name": "?FindKey@KeyValues@@QEAAPEAV1@VHKeySymbol@@@Z",
+      "hint": 534
+     },
+     {
+      "ordinal": null,
+      "name": "V_isnand",
+      "hint": 2423
+     },
+     {
+      "ordinal": null,
+      "name": "_V_StringAfterPrefix",
+      "hint": 2583
+     },
+     {
+      "ordinal": null,
+      "name": "?SetLength@CBufferString@@QEAAPEADH_NPEAH@Z",
+      "hint": 1255
+     },
+     {
+      "ordinal": null,
+      "name": "?UsesEscapeSequences@KeyValues@@QEAAX_N@Z",
+      "hint": 1442
+     },
+     {
+      "ordinal": null,
+      "name": "?RemoveSubKey@KeyValues@@QEAAXPEAV1@_N1@Z",
+      "hint": 1128
+     },
+     {
+      "ordinal": null,
+      "name": "?Count@KeyValues@@QEBAHXZ",
+      "hint": 408
+     },
+     {
+      "ordinal": null,
+      "name": "?Element@KeyValues@@QEAAPEAV1@H@Z",
+      "hint": 450
+     },
+     {
+      "ordinal": null,
+      "name": "?SetNextKey@KeyValues@@QEAAXPEAV1@@Z",
+      "hint": 1262
+     },
+     {
+      "ordinal": null,
+      "name": "?AddKey@KeyValues@@QEAAPEAV1@PEBD@Z",
+      "hint": 291
+     },
+     {
+      "ordinal": null,
+      "name": "?Clear@KeyValues@@QEAAXXZ",
+      "hint": 380
+     },
+     {
+      "ordinal": null,
+      "name": "?MergeFrom@KeyValues@@QEAAXPEBV1@W4MergeKeyValuesOp_t@1@@Z",
+      "hint": 987
+     },
+     {
+      "ordinal": null,
+      "name": "?MergeFromTemporary@KeyValues@@QEBAPEAVCTemporaryKeyValues@@PEBV1@W4MergeKeyValuesOp_t@1@@Z",
+      "hint": 988
+     },
+     {
+      "ordinal": null,
+      "name": "?FreeInts@CVariableBitStringBase@@AEAAXXZ",
+      "hint": 633
+     },
+     {
+      "ordinal": null,
+      "name": "_V_FileBase",
+      "hint": 2573
+     },
+     {
+      "ordinal": null,
+      "name": "LoggingSystem_AddLogCapture",
+      "hint": 1643
+     },
+     {
+      "ordinal": null,
+      "name": "MinidumpUserStreamInfoAppend",
+      "hint": 1720
+     },
+     {
+      "ordinal": null,
+      "name": "?SeriousWarning@@YAXHVColor@@PEBDZZ",
+      "hint": 1221
+     },
+     {
+      "ordinal": null,
+      "name": "??0?$CUniformRandomStreamImpl@VCThreadNullMutex@@@@QEAA@H@Z",
+      "hint": 2
+     },
+     {
+      "ordinal": null,
+      "name": "?LoadKV3FromFile@@YA_NPEAVKeyValues3@@PEAVCUtlString@@PEBD2AEBUKV3ID_t@@I@Z",
+      "hint": 933
+     },
+     {
+      "ordinal": null,
+      "name": "?LooksLikeKV3TextData@@YA_NPEBXHPEAUKV3ID_t@@PEADH@Z",
+      "hint": 969
+     },
+     {
+      "ordinal": null,
+      "name": "?LoadKV3FromKV1Text_Translated@@YA_NPEAVKeyValues3@@PEAVCUtlString@@PEBDW4KV1TextEscapeBehavior_t@@PEBUKV1ToKV3Translation_t@@H2_NI@Z",
+      "hint": 938
+     },
+     {
+      "ordinal": null,
+      "name": "?LoadTemporaryFromFile@KeyValues@@SAPEAVCTemporaryKeyValues@@_NPEAVIFileSystem@@PEBD2P6A_N2PEAX@Z32@Z",
+      "hint": 944
+     },
+     {
+      "ordinal": null,
+      "name": "?SaveToFile@KeyValues@@QEAA_NPEAVIFileSystem@@PEBD1_N2@Z",
+      "hint": 1214
+     },
+     {
+      "ordinal": null,
+      "name": "?SwapSubKey@KeyValues@@QEAAXPEAV1@0@Z",
+      "hint": 1350
+     },
+     {
+      "ordinal": null,
+      "name": "?FindAndDeleteSubKey@KeyValues@@QEAA_NPEBD@Z",
+      "hint": 522
+     },
+     {
+      "ordinal": null,
+      "name": "?AddString@KeyValues@@QEAAXPEBD0@Z",
+      "hint": 298
+     },
+     {
+      "ordinal": null,
+      "name": "?RecursiveSaveToFile@KeyValues@@QEBAXAEAVCUtlBuffer@@H_N1@Z",
+      "hint": 1099
+     },
+     {
+      "ordinal": null,
+      "name": "CRC64_ProcessBuffer",
+      "hint": 1537
+     },
+     {
+      "ordinal": null,
+      "name": "?SplitString@CUtlStringList@@AEAAXPEBDPEBQEBDH@Z",
+      "hint": 1319
+     },
+     {
+      "ordinal": null,
+      "name": "V_roundd",
+      "hint": 2462
+     },
+     {
+      "ordinal": null,
+      "name": "V_sscanf",
+      "hint": 2479
+     },
+     {
+      "ordinal": null,
+      "name": "LoggingSystem_GetChannelColor",
+      "hint": 1658
+     },
+     {
+      "ordinal": null,
+      "name": "?LoggingSystem_LogDirect@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@VColor@@PEBULoggingMetaData_t@@PEBD@Z",
+      "hint": 967
+     },
+     {
+      "ordinal": null,
+      "name": "??0IFormatOutputStream@@QEAA@XZ",
+      "hint": 111
+     },
+     {
+      "ordinal": null,
+      "name": "?FormatTo@@YAXPEAVIFormatOutputStream@@VCFormatStringElement@@PEBD@Z",
+      "hint": 616
+     },
+     {
+      "ordinal": null,
+      "name": "??1CCharBufferFormatOutputStream@@UEAA@XZ",
+      "hint": 128
+     },
+     {
+      "ordinal": null,
+      "name": "??_7CCharBufferFormatOutputStream@@6B@",
+      "hint": 249
+     },
+     {
+      "ordinal": null,
+      "name": "?RandomInt@?$CUniformRandomStreamImpl@VCAtomicMutex@@@@QEAAHHH@Z",
+      "hint": 1085
+     },
+     {
+      "ordinal": null,
+      "name": "?ReadAsBinaryFiltered@KeyValues@@QEAA_NAEAVCUtlBuffer@@@Z",
+      "hint": 1095
+     },
+     {
+      "ordinal": null,
+      "name": "?Reset@CSHA1@@QEAAXXZ",
+      "hint": 1149
+     },
+     {
+      "ordinal": null,
+      "name": "?Update@CSHA1@@QEAAXPEBXI@Z",
+      "hint": 1440
+     },
+     {
+      "ordinal": null,
+      "name": "?Final@CSHA1@@QEAAXXZ",
+      "hint": 517
+     },
+     {
+      "ordinal": null,
+      "name": "?GetHashHex@CSHA1@@QEAAXPEADH@Z",
+      "hint": 711
+     },
+     {
+      "ordinal": null,
+      "name": "V_log2_uint",
+      "hint": 2440
+     },
+     {
+      "ordinal": null,
+      "name": "?ConMsg@@YAXPEBDZZ",
+      "hint": 395
+     },
+     {
+      "ordinal": null,
+      "name": "??0KeyValues@@QEAA@PEBD00@Z",
+      "hint": 116
+     },
+     {
+      "ordinal": null,
+      "name": "_V_StripExtension",
+      "hint": 2585
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_localtime64",
+      "hint": 1984
+     },
+     {
+      "ordinal": null,
+      "name": "?GetForModify@CUtlString@@QEAAPEADXZ",
+      "hint": 703
+     },
+     {
+      "ordinal": null,
+      "name": "?Make@CUtlStringToken@@SA?AV1@PEBD@Z",
+      "hint": 971
+     },
+     {
+      "ordinal": null,
+      "name": "ThreadInMainThread",
+      "hint": 2068
+     },
+     {
+      "ordinal": null,
+      "name": "?IsEqual_FastCaseInsensitive@CUtlString@@QEBA_NPEBD@Z",
+      "hint": 881
+     },
+     {
+      "ordinal": null,
+      "name": "??4CUtlString@@QEAAAEAV0@AEBVCBufferString@@@Z",
+      "hint": 225
+     },
+     {
+      "ordinal": null,
+      "name": "?Remove@CUtlString@@QEBA?AV1@PEBD_N@Z",
+      "hint": 1115
+     },
+     {
+      "ordinal": null,
+      "name": "?Set@CUtlBinaryBlock@@QEAAXPEBXH@Z",
+      "hint": 1227
+     },
+     {
+      "ordinal": null,
+      "name": "MD5_PseudoRandom",
+      "hint": 1698
+     },
+     {
+      "ordinal": null,
+      "name": "?TruncateAt@CBufferString@@QEAAPEBDH_N@Z",
+      "hint": 1415
+     },
+     {
+      "ordinal": null,
+      "name": "?SaveKV3ToFile@@YA_NAEBUKV3ID_t@@0PEBVKeyValues3@@PEAVCUtlString@@PEBD3I@Z",
+      "hint": 1210
+     },
+     {
+      "ordinal": null,
+      "name": "?RegisterEventListener_Base@CEventDispatcher_Base@@IEAAXAEBVCUtlAbstractDelegate@@I_NAEAV?$CUtlVector@UEventListenerInfo_t@CEventDispatcher_Base@@HV?$CUtlVectorMemory_Growable@UEventListenerInfo_t@CEventDispatcher_Base@@H$0A@@@@@HPEBD@Z",
+      "hint": 1103
+     },
+     {
+      "ordinal": null,
+      "name": "?UnregisterEventListener_Base@CEventDispatcher_Base@@IEAA_NAEBVCUtlAbstractDelegate@@AEAV?$CUtlVector@UEventListenerInfo_t@CEventDispatcher_Base@@HV?$CUtlVectorMemory_Growable@UEventListenerInfo_t@CEventDispatcher_Base@@H$0A@@@@@@Z",
+      "hint": 1437
+     },
+     {
+      "ordinal": null,
+      "name": "V_PrettifyMem",
+      "hint": 2250
+     },
+     {
+      "ordinal": null,
+      "name": "V_PrettifyNum",
+      "hint": 2251
+     },
+     {
+      "ordinal": null,
+      "name": "nexttoken",
+      "hint": 2623
+     },
+     {
+      "ordinal": null,
+      "name": "V_ParseURLQuery_Unsafe",
+      "hint": 2244
+     },
+     {
+      "ordinal": null,
+      "name": "_V_ComposeFileName",
+      "hint": 2569
+     },
+     {
+      "ordinal": null,
+      "name": "V_FixSlashes",
+      "hint": 2188
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_GetGameDirectory",
+      "hint": 1801
+     },
+     {
+      "ordinal": null,
+      "name": "?StrFormat@CBufferString@@QEAAPEBDPEBDZZ",
+      "hint": 1333
+     },
+     {
+      "ordinal": null,
+      "name": "?ToLowerFast@CUtlString@@QEAAXXZ",
+      "hint": 1396
+     },
+     {
+      "ordinal": null,
+      "name": "?StripTrailingSlash@CUtlString@@QEAAXXZ",
+      "hint": 1342
+     },
+     {
+      "ordinal": null,
+      "name": "?FixSlashes@CUtlString@@QEAAXD@Z",
+      "hint": 592
+     },
+     {
+      "ordinal": null,
+      "name": "?TrimLeft@CUtlString@@QEAAXD@Z",
+      "hint": 1410
+     },
+     {
+      "ordinal": null,
+      "name": "??YCUtlString@@QEAAAEAV0@D@Z",
+      "hint": 244
+     },
+     {
+      "ordinal": null,
+      "name": "?StripFilename@CUtlString@@QEBA?AV1@XZ",
+      "hint": 1339
+     },
+     {
+      "ordinal": null,
+      "name": "?Get@CUtlBuffer@@QEAA_NPEAXH@Z",
+      "hint": 645
+     },
+     {
+      "ordinal": null,
+      "name": "?LoadKV3@@YA_NPEAVKeyValues3@@PEAVCUtlString@@PEAVCUtlBuffer@@AEBUKV3ID_t@@PEBDI@Z",
+      "hint": 930
+     },
+     {
+      "ordinal": null,
+      "name": "?LoadKV3@@YA_NPEAVCKV3Arena@@PEAVCUtlString@@PEAVCUtlBuffer@@AEBUKV3ID_t@@PEBDI@Z",
+      "hint": 929
+     },
+     {
+      "ordinal": null,
+      "name": "?SaveKV3@@YA_NAEBUKV3ID_t@@0PEBVKeyValues3@@PEAVCUtlString@@PEAVCUtlBuffer@@I@Z",
+      "hint": 1200
+     },
+     {
+      "ordinal": null,
+      "name": "?IsEqual@KeyValues@@QEAA_NPEAV1@@Z",
+      "hint": 877
+     },
+     {
+      "ordinal": null,
+      "name": "??0CKeyValuesDumpContextToLoggingChannel@@QEAA@HW4LoggingSeverity_t@@@Z",
+      "hint": 44
+     },
+     {
+      "ordinal": null,
+      "name": "?GetGameInfoKey@@YAPEAVKeyValues@@PEBD@Z",
+      "hint": 707
+     },
+     {
+      "ordinal": null,
+      "name": "RegisterQuantizedFloatEncoderAliasTuning",
+      "hint": 1996
+     },
+     {
+      "ordinal": null,
+      "name": "ThreadInPrimaryOrSecondaryMainThread",
+      "hint": 2069
+     },
+     {
+      "ordinal": null,
+      "name": "DeclareCurrentThreadIsSecondaryMainThread",
+      "hint": 1566
+     },
+     {
+      "ordinal": null,
+      "name": "ClearSecondaryMainThread",
+      "hint": 1544
+     },
+     {
+      "ordinal": null,
+      "name": "CreateNewThreadPool",
+      "hint": 1559
+     },
+     {
+      "ordinal": null,
+      "name": "?SetString@CGridStringPrinter@@QEAAXHHPEBD@Z",
+      "hint": 1281
+     },
+     {
+      "ordinal": null,
+      "name": "?SetColumnHeader@CGridStringPrinter@@QEAAXHPEBD@Z",
+      "hint": 1236
+     },
+     {
+      "ordinal": null,
+      "name": "?GetLines@CGridStringPrinter@@QEBAXAEAV?$CUtlVector@VCUtlString@@HV?$CUtlVectorMemory_Growable@VCUtlString@@H$0A@@@@@_N@Z",
+      "hint": 729
+     },
+     {
+      "ordinal": null,
+      "name": "??0CMemoryStack@@QEAA@XZ",
+      "hint": 45
+     },
+     {
+      "ordinal": null,
+      "name": "??1CMemoryStack@@QEAA@XZ",
+      "hint": 138
+     },
+     {
+      "ordinal": null,
+      "name": "?Init@CMemoryStack@@QEAA_NPEBDIIII@Z",
+      "hint": 820
+     },
+     {
+      "ordinal": null,
+      "name": "?MaybeCommitTo@CMemoryStack@@AEAA_NPEAE@Z",
+      "hint": 982
+     },
+     {
+      "ordinal": null,
+      "name": "?EnterScopeInternalBudgetFlags@?$VProfScopeHelper@$02$0A@@@SAP6AXXZPEBDAEAUVProfBudgetGroupCallSite@@AEBVCUtlSourceLocation@@@Z",
+      "hint": 491
+     },
+     {
+      "ordinal": null,
+      "name": "g_nConfigMaxCoord",
+      "hint": 2618
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_GetClockStart",
+      "hint": 1782
+     },
+     {
+      "ordinal": null,
+      "name": "?SetExtension@CBufferString@@QEAAPEBDPEBD_N@Z",
+      "hint": 1245
+     },
+     {
+      "ordinal": null,
+      "name": "?ToString@netadr_t@@QEBAPEBD_N@Z",
+      "hint": 1398
+     },
+     {
+      "ordinal": null,
+      "name": "?TrimTail@CBufferString@@QEAAPEBDPEBD@Z",
+      "hint": 1414
+     },
+     {
+      "ordinal": null,
+      "name": "LoggingSystem_LogDirect",
+      "hint": 1672
+     },
+     {
+      "ordinal": null,
+      "name": "?Slice@CUtlString@@QEBA?AV1@HH@Z",
+      "hint": 1311
+     },
+     {
+      "ordinal": null,
+      "name": "V_atan2f",
+      "hint": 2364
+     },
+     {
+      "ordinal": null,
+      "name": "V_CompareNameWithWildcards",
+      "hint": 2177
+     },
+     {
+      "ordinal": null,
+      "name": "_V_StripLastDir",
+      "hint": 2586
+     },
+     {
+      "ordinal": null,
+      "name": "??YCUtlString@@QEAAAEAV0@AEBVCBufferString@@@Z",
+      "hint": 243
+     },
+     {
+      "ordinal": null,
+      "name": "?KV3TransferSave@CUtlStringAndTokenWithStorage@@QEBAXPEAVCKV3TransferSaveContext@@@Z",
+      "hint": 914
+     },
+     {
+      "ordinal": null,
+      "name": "?KV3TransferLoad@CUtlStringAndTokenWithStorage@@QEAAXPEAVCKV3TransferLoadContext@@@Z",
+      "hint": 913
+     },
+     {
+      "ordinal": null,
+      "name": "?LoadFromBuffer@KeyValues@@QEAA_NPEBD0PEAVIFileSystem@@0P6A_N0PEAX@ZPEAVIKeyValuesErrorSpew@@20@Z",
+      "hint": 926
+     },
+     {
+      "ordinal": null,
+      "name": "CRC32_ProcessBuffer",
+      "hint": 1536
+     },
+     {
+      "ordinal": null,
+      "name": "?EnsureCapacity@CBufferString@@QEAAHHPEAPEAD_N1@Z",
+      "hint": 463
+     },
+     {
+      "ordinal": null,
+      "name": "?SetBufferType@CUtlBuffer@@QEAAX_N0@Z",
+      "hint": 1232
+     },
+     {
+      "ordinal": null,
+      "name": "?SetBigEndian@CUtlBuffer@@QEAAX_N@Z",
+      "hint": 1230
+     },
+     {
+      "ordinal": null,
+      "name": "?CheckArbitraryPeekGet@CUtlBuffer@@QEAA_NHAEAH@Z",
+      "hint": 370
+     },
+     {
+      "ordinal": null,
+      "name": "V_AppearsToBeANumber",
+      "hint": 2148
+     },
+     {
+      "ordinal": null,
+      "name": "?V_UnicodeValidate@@YA_NPEBD@Z",
+      "hint": 1493
+     },
+     {
+      "ordinal": null,
+      "name": "?V_UnicodeLength@@YAHPEBD@Z",
+      "hint": 1489
+     },
+     {
+      "ordinal": null,
+      "name": "?V_UnicodeAdvance@@YAPEADPEADH@Z",
+      "hint": 1469
+     },
+     {
+      "ordinal": null,
+      "name": "VProf_AssignNextTimespanId",
+      "hint": 2142
+     },
+     {
+      "ordinal": null,
+      "name": "_V_SetExtension",
+      "hint": 2577
+     },
+     {
+      "ordinal": null,
+      "name": "V_atoui64",
+      "hint": 2372
+     },
+     {
+      "ordinal": null,
+      "name": "V_IsAbsolutePath",
+      "hint": 2210
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_GetTime",
+      "hint": 1837
+     },
+     {
+      "ordinal": null,
+      "name": "?RemoveAt@CBufferString@@QEAAPEBDHH@Z",
+      "hint": 1118
+     },
+     {
+      "ordinal": null,
+      "name": "??0?$CUniformRandomStreamImpl@VCAtomicMutex@@@@QEAA@XZ",
+      "hint": 1
+     },
+     {
+      "ordinal": null,
+      "name": "_V_FixupPathName",
+      "hint": 2574
+     },
+     {
+      "ordinal": null,
+      "name": "?EnterScopeInternal@?$VProfScopeHelper@$02$0A@@@SAP6AXXZPEBDAEBVCUtlSourceLocation@@@Z",
+      "hint": 481
+     },
+     {
+      "ordinal": null,
+      "name": "_V_DefaultExtension",
+      "hint": 2570
+     },
+     {
+      "ordinal": null,
+      "name": "?RemoveWhitespace@CBufferString@@QEAAHXZ",
+      "hint": 1132
+     },
+     {
+      "ordinal": null,
+      "name": "V_ParseToken",
+      "hint": 2243
+     },
+     {
+      "ordinal": null,
+      "name": "_V_ExtractFilePath",
+      "hint": 2572
+     },
+     {
+      "ordinal": null,
+      "name": "?TruncateAt@CBufferString@@QEAAPEBDPEBD_N@Z",
+      "hint": 1416
+     },
+     {
+      "ordinal": null,
+      "name": "LoggingSystem_AddTagToChannel",
+      "hint": 1646
+     },
+     {
+      "ordinal": null,
+      "name": "ThreadGetCurrentProcessId",
+      "hint": 2060
+     },
+     {
+      "ordinal": null,
+      "name": "CharacterSetBuild",
+      "hint": 1543
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_ExitProcess",
+      "hint": 1769
+     },
+     {
+      "ordinal": null,
+      "name": "V_StripFilename",
+      "hint": 2287
+     },
+     {
+      "ordinal": null,
+      "name": "?MatchesPattern@CUtlString@@QEBA_NAEBV1@H@Z",
+      "hint": 979
+     },
+     {
+      "ordinal": null,
+      "name": "?Internal_SetString@CKeyValues_Data@@IEAAXPEBD@Z",
+      "hint": 862
+     },
+     {
+      "ordinal": null,
+      "name": "SkipBlanks",
+      "hint": 2026
+     },
+     {
+      "ordinal": null,
+      "name": "?ElideSubKey@KeyValues@@QEAAXPEAV1@@Z",
+      "hint": 451
+     },
+     {
+      "ordinal": null,
+      "name": "RandomSeed",
+      "hint": 1992
+     },
+     {
+      "ordinal": null,
+      "name": "V_StripLeadingWhitespace",
+      "hint": 2289
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_MSTime",
+      "hint": 1882
+     },
+     {
+      "ordinal": null,
+      "name": "ThreadShellExecuteEx",
+      "hint": 2088
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_CreateWindow",
+      "hint": 1749
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_GetDesktopResolution",
+      "hint": 1794
+     },
+     {
+      "ordinal": null,
+      "name": "_V_strEndsWith",
+      "hint": 2589
+     },
+     {
+      "ordinal": null,
+      "name": "V_strtod",
+      "hint": 2490
+     },
+     {
+      "ordinal": null,
+      "name": "V_StringToVectorWS",
+      "hint": 2283
+     },
+     {
+      "ordinal": null,
+      "name": "ThreadYield",
+      "hint": 2094
+     },
+     {
+      "ordinal": null,
+      "name": "CreateSimpleThread",
+      "hint": 1561
+     },
+     {
+      "ordinal": null,
+      "name": "ReleaseThreadHandle",
+      "hint": 1998
+     },
+     {
+      "ordinal": null,
+      "name": "V_fclose",
+      "hint": 2385
+     },
+     {
+      "ordinal": null,
+      "name": "V_feof",
+      "hint": 2387
+     },
+     {
+      "ordinal": null,
+      "name": "V_ferror",
+      "hint": 2388
+     },
+     {
+      "ordinal": null,
+      "name": "V_fopenUTF8",
+      "hint": 2396
+     },
+     {
+      "ordinal": null,
+      "name": "V_fprintf",
+      "hint": 2398
+     },
+     {
+      "ordinal": null,
+      "name": "V_fread",
+      "hint": 2401
+     },
+     {
+      "ordinal": null,
+      "name": "V_fscanf",
+      "hint": 2405
+     },
+     {
+      "ordinal": null,
+      "name": "V_fwrite",
+      "hint": 2411
+     },
+     {
+      "ordinal": null,
+      "name": "V_AddBackSlashesToSpecialChars",
+      "hint": 2147
+     },
+     {
+      "ordinal": null,
+      "name": "V_StripTrailingSlash",
+      "hint": 2292
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_USTime",
+      "hint": 1968
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_GetCPUUsage",
+      "hint": 1780
+     },
+     {
+      "ordinal": null,
+      "name": "?V_UnicodeRepair@@YAHPEADW4EStringConvertErrorPolicy@@@Z",
+      "hint": 1492
+     },
+     {
+      "ordinal": null,
+      "name": "LoggingSystem_LogLines",
+      "hint": 1673
+     },
+     {
+      "ordinal": null,
+      "name": "V_StringToFloatArray",
+      "hint": 2266
+     },
+     {
+      "ordinal": null,
+      "name": "?GetLine@CUtlBuffer@@QEAAXPEADH@Z",
+      "hint": 724
+     },
+     {
+      "ordinal": null,
+      "name": "?EatWhiteSpace@CUtlBuffer@@QEAAXXZ",
+      "hint": 447
+     },
+     {
+      "ordinal": null,
+      "name": "?EatCPPComment@CUtlBuffer@@QEAA_NXZ",
+      "hint": 446
+     },
+     {
+      "ordinal": null,
+      "name": "?Clear@netadr_t@@QEAAXXZ",
+      "hint": 381
+     },
+     {
+      "ordinal": null,
+      "name": "?SetType@netadr_t@@QEAAXW4netadrtype_t@@@Z",
+      "hint": 1288
+     },
+     {
+      "ordinal": null,
+      "name": "?SetPort@netadr_t@@QEAAXG@Z",
+      "hint": 1267
+     },
+     {
+      "ordinal": null,
+      "name": "?SetIP@netadr_t@@QEAAXI@Z",
+      "hint": 1253
+     },
+     {
+      "ordinal": null,
+      "name": "?SetFromString@netadr_t@@QEAA_NPEBD_N@Z",
+      "hint": 1251
+     },
+     {
+      "ordinal": null,
+      "name": "?ToString@netadr_t@@QEBAXPEADI_N@Z",
+      "hint": 1399
+     },
+     {
+      "ordinal": null,
+      "name": "?GetIPHostByteOrder@netadr_t@@QEBAIXZ",
+      "hint": 715
+     },
+     {
+      "ordinal": null,
+      "name": "?IsLocalhost@netadr_t@@QEBA_NXZ",
+      "hint": 890
+     },
+     {
+      "ordinal": null,
+      "name": "?IsValid@netadr_t@@QEBA_NXZ",
+      "hint": 905
+     },
+     {
+      "ordinal": null,
+      "name": "V_strtoi64",
+      "hint": 2493
+     },
+     {
+      "ordinal": null,
+      "name": "V_atoi64",
+      "hint": 2371
+     },
+     {
+      "ordinal": null,
+      "name": "?V_SplitNumbers@@YAHPEBDDAEAV?$CUtlVector@IHV?$CUtlVectorMemory_Growable@IH$0A@@@@@@Z",
+      "hint": 1462
+     },
+     {
+      "ordinal": null,
+      "name": "?Internal_GetUint64@CKeyValues_Data@@IEBA_KXZ",
+      "hint": 850
+     },
+     {
+      "ordinal": null,
+      "name": "V_sind",
+      "hint": 2469
+     },
+     {
+      "ordinal": null,
+      "name": "DestroyThreadPool",
+      "hint": 1569
+     },
+     {
+      "ordinal": null,
+      "name": "?PauseWork@CThreadBackgroundWorkGate@@QEAAXXZ",
+      "hint": 1023
+     },
+     {
+      "ordinal": null,
+      "name": "?ResumeWork@CThreadBackgroundWorkGate@@QEAAXXZ",
+      "hint": 1180
+     },
+     {
+      "ordinal": null,
+      "name": "?PauseRequested@CThreadBackgroundWorkGate@@QEBA_NXZ",
+      "hint": 1022
+     },
+     {
+      "ordinal": null,
+      "name": "LoggingSystem_FindChannel",
+      "hint": 1654
+     },
+     {
+      "ordinal": null,
+      "name": "V_InitJSONConfig",
+      "hint": 2205
+     },
+     {
+      "ordinal": null,
+      "name": "V_ParseJSONBuffer",
+      "hint": 2241
+     },
+     {
+      "ordinal": null,
+      "name": "V_modff",
+      "hint": 2449
+     },
+     {
+      "ordinal": null,
+      "name": "V_IndexAfterPrefix",
+      "hint": 2204
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_IsRunningOnCustomerMachine",
+      "hint": 1867
+     },
+     {
+      "ordinal": null,
+      "name": "V_powd",
+      "hint": 2455
+     },
+     {
+      "ordinal": null,
+      "name": "?WriteToFile@CUtlBuffer@@QEAA_NPEBD_N@Z",
+      "hint": 1521
+     },
+     {
+      "ordinal": null,
+      "name": "??0CUtlString@@QEAA@AEBVCBufferString@@@Z",
+      "hint": 100
+     },
+     {
+      "ordinal": null,
+      "name": "?SetFloat@KeyValues@@QEAAXPEBDM@Z",
+      "hint": 1247
+     },
+     {
+      "ordinal": null,
+      "name": "g_flConfigMaxCoord",
+      "hint": 2614
+     },
+     {
+      "ordinal": null,
+      "name": "??1CTSListBase@@QEAA@XZ",
+      "hint": 151
+     },
+     {
+      "ordinal": null,
+      "name": "?SetLength@CUtlBinaryBlock@@QEAAXH@Z",
+      "hint": 1256
+     },
+     {
+      "ordinal": null,
+      "name": "?SetColumnJustification@CGridStringPrinter@@QEAAXH_N@Z",
+      "hint": 1237
+     },
+     {
+      "ordinal": null,
+      "name": "?DelimitedHeader@CGridStringPrinter@@QEAAXDPEBDZZ",
+      "hint": 421
+     },
+     {
+      "ordinal": null,
+      "name": "?DelimitedPrint@CGridStringPrinter@@QEAAXDPEBDZZ",
+      "hint": 422
+     },
+     {
+      "ordinal": null,
+      "name": "?Spew@CGridStringPrinter@@QEBAXHPEBD@Z",
+      "hint": 1312
+     },
+     {
+      "ordinal": null,
+      "name": "??0CUtlMemoryPoolBase@@QEAA@HHHW4MemoryPoolGrowType_t@@PEBDW4MemAllocAttribute_t@@@Z",
+      "hint": 97
+     },
+     {
+      "ordinal": null,
+      "name": "??1CUtlMemoryPoolBase@@QEAA@XZ",
+      "hint": 166
+     },
+     {
+      "ordinal": null,
+      "name": "?Alloc@CUtlMemoryPoolBase@@QEAAPEAXXZ",
+      "hint": 308
+     },
+     {
+      "ordinal": null,
+      "name": "?ClearDestruct@CUtlMemoryPoolBase@@IEAAXP6AXPEAX@Z@Z",
+      "hint": 382
+     },
+     {
+      "ordinal": null,
+      "name": "??0CUtlScratchMemoryPool@@QEAA@XZ",
+      "hint": 99
+     },
+     {
+      "ordinal": null,
+      "name": "?Init@CUtlScratchMemoryPool@@QEAAXIIPEAX_N@Z",
+      "hint": 822
+     },
+     {
+      "ordinal": null,
+      "name": "?GetCurrentAllocPoint@CUtlScratchMemoryPool@@QEBA?AUUtlScratchMemoryPoolMark_t@@XZ",
+      "hint": 676
+     },
+     {
+      "ordinal": null,
+      "name": "?FreeToAllocPoint@CUtlScratchMemoryPool@@QEAAXUUtlScratchMemoryPoolMark_t@@@Z",
+      "hint": 638
+     },
+     {
+      "ordinal": null,
+      "name": "?Purge@CMemoryStack@@QEAAX_N@Z",
+      "hint": 1050
+     },
+     {
+      "ordinal": null,
+      "name": "?SaveKV3Text_ToString@@YA_NAEBUKV3ID_t@@PEBVKeyValues3@@PEAVCUtlString@@PEAVCBufferString@@I@Z",
+      "hint": 1209
+     },
+     {
+      "ordinal": null,
+      "name": "?SaveKV3Text_NoHeader@@YA_NPEBVKeyValues3@@PEAVCUtlString@@PEAVCBufferString@@I@Z",
+      "hint": 1206
+     },
+     {
+      "ordinal": null,
+      "name": "SplitNameAndKV3Args",
+      "hint": 2028
+     },
+     {
+      "ordinal": null,
+      "name": "?ValidateOperand@CVariableBitStringBase@@IEBAXAEBV1@@Z",
+      "hint": 1503
+     },
+     {
+      "ordinal": null,
+      "name": "?AllocInts@CVariableBitStringBase@@AEAAXH@Z",
+      "hint": 310
+     },
+     {
+      "ordinal": null,
+      "name": "V_asind",
+      "hint": 2361
+     },
+     {
+      "ordinal": null,
+      "name": "V_atand",
+      "hint": 2365
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_ctime64",
+      "hint": 1982
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_gmtime64",
+      "hint": 1983
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_timegm64",
+      "hint": 1986
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_mktime64",
+      "hint": 1985
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_TicksAfterMicroSecs",
+      "hint": 1961
+     },
+     {
+      "ordinal": null,
+      "name": "GetCPUInformation",
+      "hint": 1587
+     },
+     {
+      "ordinal": null,
+      "name": "MemAlloc_AllocFunc",
+      "hint": 1701
+     },
+     {
+      "ordinal": null,
+      "name": "MemAlloc_FreeFunc",
+      "hint": 1704
+     },
+     {
+      "ordinal": null,
+      "name": "V_localeconv",
+      "hint": 2437
+     },
+     {
+      "ordinal": null,
+      "name": "ThreadSleep",
+      "hint": 2089
+     },
+     {
+      "ordinal": null,
+      "name": "??0CThreadEvent@@QEAA@_N@Z",
+      "hint": 74
+     },
+     {
+      "ordinal": null,
+      "name": "?Set@CThreadEvent@@QEAA_NXZ",
+      "hint": 1225
+     },
+     {
+      "ordinal": null,
+      "name": "??0CThread@@QEAA@XZ",
+      "hint": 68
+     },
+     {
+      "ordinal": null,
+      "name": "??1CThread@@UEAA@XZ",
+      "hint": 152
+     },
+     {
+      "ordinal": null,
+      "name": "?GetName@CThread@@QEAAPEBDXZ",
+      "hint": 734
+     },
+     {
+      "ordinal": null,
+      "name": "?SetName@CThread@@QEAAXPEBD@Z",
+      "hint": 1260
+     },
+     {
+      "ordinal": null,
+      "name": "?Join@CThread@@QEAA_NI@Z",
+      "hint": 911
+     },
+     {
+      "ordinal": null,
+      "name": "?Start@CThread@@UEAA_NIW4ThreadPriorityEnum_t@@@Z",
+      "hint": 1322
+     },
+     {
+      "ordinal": null,
+      "name": "?WaitForCreateComplete@CThread@@MEAA_NPEAVCThreadEvent@@@Z",
+      "hint": 1507
+     },
+     {
+      "ordinal": null,
+      "name": "?IsThreadRunning@CThread@@MEAA_NXZ",
+      "hint": 903
+     },
+     {
+      "ordinal": null,
+      "name": "V_fpclassifyd",
+      "hint": 2397
+     },
+     {
+      "ordinal": null,
+      "name": "MemAlloc_CallocFunc",
+      "hint": 1702
+     },
+     {
+      "ordinal": null,
+      "name": "V_acosd",
+      "hint": 2359
+     },
+     {
+      "ordinal": null,
+      "name": "V_cosd",
+      "hint": 2376
+     },
+     {
+      "ordinal": null,
+      "name": "?SaveKV3Text_NoHeader@@YA_NPEBVKeyValues3@@PEAVCUtlString@@1I@Z",
+      "hint": 1205
+     },
+     {
+      "ordinal": null,
+      "name": "?OnBeginBackgroundWork@CThreadBackgroundWorkGate@@QEAAXXZ",
+      "hint": 1000
+     },
+     {
+      "ordinal": null,
+      "name": "?OnEndBackgroundWork@CThreadBackgroundWorkGate@@QEAAXXZ",
+      "hint": 1001
+     },
+     {
+      "ordinal": null,
+      "name": "?AlignBufferGet@CUtlBuffer@@QEAA_NH@Z",
+      "hint": 306
+     },
+     {
+      "ordinal": null,
+      "name": "??0CThreadBackgroundWorkGate@@QEAA@XZ",
+      "hint": 69
+     },
+     {
+      "ordinal": null,
+      "name": "??1CThreadBackgroundWorkGate@@QEAA@XZ",
+      "hint": 153
+     },
+     {
+      "ordinal": null,
+      "name": "V_StripExcessTrailingZeros",
+      "hint": 2286
+     },
+     {
+      "ordinal": null,
+      "name": "V_TryAndMakeFriendlyNameFromCppName",
+      "hint": 2296
+     },
+     {
+      "ordinal": null,
+      "name": "RegisterAssertionFailureListener",
+      "hint": 1994
+     },
+     {
+      "ordinal": null,
+      "name": "UnregisterAssertionFailureListener",
+      "hint": 2118
+     },
+     {
+      "ordinal": null,
+      "name": "V_exp2f",
+      "hint": 2382
+     },
+     {
+      "ordinal": null,
+      "name": "V_log2f",
+      "hint": 2442
+     },
+     {
+      "ordinal": null,
+      "name": "V_tand",
+      "hint": 2499
+     },
+     {
+      "ordinal": null,
+      "name": "V_RemoveDotSlashes",
+      "hint": 2253
+     },
+     {
+      "ordinal": null,
+      "name": "?FixupPathName@CBufferString@@QEAAPEBDD@Z",
+      "hint": 593
+     },
+     {
+      "ordinal": null,
+      "name": "?Compress@CLZSS@@QEAAPEAEPEAEHPEAI_N@Z",
+      "hint": 392
+     },
+     {
+      "ordinal": null,
+      "name": "?SafeUncompress@CLZSS@@QEAAIPEAE0I@Z",
+      "hint": 1199
+     },
+     {
+      "ordinal": null,
+      "name": "?GetActualSize@CLZSS@@QEAAIPEAE@Z",
+      "hint": 648
+     },
+     {
+      "ordinal": null,
+      "name": "?Printf@CUtlBuffer@@QEAAXPEBDZZ",
+      "hint": 1044
+     },
+     {
+      "ordinal": null,
+      "name": "?Put@CUtlBuffer@@QEAAXPEBXH@Z",
+      "hint": 1059
+     },
+     {
+      "ordinal": null,
+      "name": "?PutString@CUtlBuffer@@QEAAXPEBD@Z",
+      "hint": 1074
+     },
+     {
+      "ordinal": null,
+      "name": "?GetString@CUtlBuffer@@QEAAXPEAVCBufferString@@@Z",
+      "hint": 769
+     },
+     {
+      "ordinal": null,
+      "name": "??0CUtlBuffer@@QEAA@PEBXHW4BufferFlags_t@0@@Z",
+      "hint": 88
+     },
+     {
+      "ordinal": null,
+      "name": "?GetBaseFilename@CUtlString@@QEBA?AV1@XZ",
+      "hint": 655
+     },
+     {
+      "ordinal": null,
+      "name": "?FormatV@CUtlString@@QEAAHPEBDPEAD@Z",
+      "hint": 627
+     },
+     {
+      "ordinal": null,
+      "name": "?IsEqual_CaseSensitive@CUtlString@@QEBA_NPEBD@Z",
+      "hint": 879
+     },
+     {
+      "ordinal": null,
+      "name": "?ToUpperFast@CUtlString@@QEAAXXZ",
+      "hint": 1401
+     },
+     {
+      "ordinal": null,
+      "name": "?RandomFloat@?$CUniformRandomStreamImpl@VCThreadNullMutex@@@@QEAAMMM@Z",
+      "hint": 1077
+     },
+     {
+      "ordinal": null,
+      "name": "COM_TimestampedLog",
+      "hint": 1534
+     },
+     {
+      "ordinal": null,
+      "name": "LoggingSystem_GetChannelVerbosity",
+      "hint": 1661
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_NotifyOSAppIsNotHung",
+      "hint": 1892
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_TickDiffMilliSecF",
+      "hint": 1958
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_RelativeTicks",
+      "hint": 1907
+     },
+     {
+      "ordinal": null,
+      "name": "V_GetFileExtension",
+      "hint": 2194
+     },
+     {
+      "ordinal": null,
+      "name": "_V_strnicmp_fast",
+      "hint": 2595
+     },
+     {
+      "ordinal": null,
+      "name": "V_strupper_fast",
+      "hint": 2497
+     },
+     {
+      "ordinal": null,
+      "name": "V_strlower_fast",
+      "hint": 2486
+     },
+     {
+      "ordinal": null,
+      "name": "V_tanf",
+      "hint": 2500
+     },
+     {
+      "ordinal": null,
+      "name": "V_sinf",
+      "hint": 2470
+     },
+     {
+      "ordinal": null,
+      "name": "V_cosf",
+      "hint": 2377
+     },
+     {
+      "ordinal": null,
+      "name": "V_asinf",
+      "hint": 2362
+     },
+     {
+      "ordinal": null,
+      "name": "V_StringToUint16",
+      "hint": 2275
+     },
+     {
+      "ordinal": null,
+      "name": "V_StringToInt16",
+      "hint": 2267
+     },
+     {
+      "ordinal": null,
+      "name": "V_Int16ToString_Unsafe",
+      "hint": 2206
+     },
+     {
+      "ordinal": null,
+      "name": "V_UInt16ToString_Unsafe",
+      "hint": 2299
+     },
+     {
+      "ordinal": null,
+      "name": "?LoadKV3@@YA_NPEAVKeyValues3@@PEAVCUtlString@@PEBDAEBUKV3ID_t@@2I@Z",
+      "hint": 931
+     },
+     {
+      "ordinal": null,
+      "name": "?RandomFloat@?$CUniformRandomStreamImpl@VCAtomicMutex@@@@QEAAMMM@Z",
+      "hint": 1076
+     },
+     {
+      "ordinal": null,
+      "name": "?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULoggingRareOptions_t@@PEBDZZ",
+      "hint": 954
+     },
+     {
+      "ordinal": null,
+      "name": "V_StringToBool",
+      "hint": 2259
+     },
+     {
+      "ordinal": null,
+      "name": "V_acosf",
+      "hint": 2360
+     },
+     {
+      "ordinal": null,
+      "name": "?GetGameInfoBool@@YA_NPEBD_N@Z",
+      "hint": 704
+     },
+     {
+      "ordinal": null,
+      "name": "V_StringToQAngle",
+      "hint": 2273
+     },
+     {
+      "ordinal": null,
+      "name": "g_VProfSignalSpike",
+      "hint": 2612
+     },
+     {
+      "ordinal": null,
+      "name": "?GetInt@KeyValues@@QEBAHPEBDH@Z",
+      "hint": 721
+     },
+     {
+      "ordinal": null,
+      "name": "?FindKey@KeyValues@@QEAAPEAV1@PEBD_N@Z",
+      "hint": 533
+     },
+     {
+      "ordinal": null,
+      "name": "?String@CUtlSymbolTable@@QEBAPEBDVCUtlSymbol@@@Z",
+      "hint": 1336
+     },
+     {
+      "ordinal": null,
+      "name": "?AddString@CUtlSymbolTable@@QEAA?AVCUtlSymbol@@PEBDPEA_N@Z",
+      "hint": 297
+     },
+     {
+      "ordinal": null,
+      "name": "??1CUtlSymbolTable@@QEAA@XZ",
+      "hint": 168
+     },
+     {
+      "ordinal": null,
+      "name": "??0CUtlSymbolTable@@QEAA@HH_N@Z",
+      "hint": 101
+     },
+     {
+      "ordinal": null,
+      "name": "?FormatArgumentsToBuffer@@YAXPEAVIFormatOutputStream@@PEBDPEBVCTypeErasedFormattingWrapper@@H@Z",
+      "hint": 604
+     },
+     {
+      "ordinal": null,
+      "name": "??1CBufferStringFormatOutputStream@@UEAA@XZ",
+      "hint": 127
+     },
+     {
+      "ordinal": null,
+      "name": "??0CBufferStringFormatOutputStream@@QEAA@AEAVCBufferString@@@Z",
+      "hint": 9
+     },
+     {
+      "ordinal": null,
+      "name": "V_StringToColor",
+      "hint": 2260
+     },
+     {
+      "ordinal": null,
+      "name": "V_StringToVector",
+      "hint": 2280
+     },
+     {
+      "ordinal": null,
+      "name": "V_StringToUint64",
+      "hint": 2277
+     },
+     {
+      "ordinal": null,
+      "name": "?RemoveFromStart@CUtlString@@QEBA?AV1@PEBD_N@Z",
+      "hint": 1125
+     },
+     {
+      "ordinal": null,
+      "name": "??HCUtlString@@QEBA?AV0@AEBV0@@Z",
+      "hint": 238
+     },
+     {
+      "ordinal": null,
+      "name": "?TrimLeft@CUtlString@@QEAAXPEBD@Z",
+      "hint": 1411
+     },
+     {
+      "ordinal": null,
+      "name": "?Acquire@CUtlString@@QEAAXPEAVCBufferString@@_N@Z",
+      "hint": 283
+     },
+     {
+      "ordinal": null,
+      "name": "RandomFloat",
+      "hint": 1988
+     },
+     {
+      "ordinal": null,
+      "name": "?DevWarning@@YAXPEBDZZ",
+      "hint": 431
+     },
+     {
+      "ordinal": null,
+      "name": "?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@PEBULoggingMetaData_t@@VColor@@PEBDZZ",
+      "hint": 959
+     },
+     {
+      "ordinal": null,
+      "name": "LoggingSystem_RegisterLoggingChannel",
+      "hint": 1678
+     },
+     {
+      "ordinal": null,
+      "name": "?MoveFrom@CBufferString@@QEAAXAEAV1@@Z",
+      "hint": 989
+     },
+     {
+      "ordinal": null,
+      "name": "V_atofloat32",
+      "hint": 2368
+     },
+     {
+      "ordinal": null,
+      "name": "V_atof",
+      "hint": 2367
+     },
+     {
+      "ordinal": null,
+      "name": "_V_strncat",
+      "hint": 2591
+     },
+     {
+      "ordinal": null,
+      "name": "?Assert_ConditionFailed_Fatal@@YAXAEBU_AssertCompileTimeConstantStruct_t@@PEBDZZ",
+      "hint": 341
+     },
+     {
+      "ordinal": null,
+      "name": "LOG_GENERAL",
+      "hint": 1638
+     },
+     {
+      "ordinal": null,
+      "name": "?EnterScopeInternalBudgetFlags@?$VProfScopeHelper@$00$0A@@@SAP6AXXZPEBDAEAUVProfBudgetGroupCallSite@@AEBVCUtlSourceLocation@@@Z",
+      "hint": 487
+     },
+     {
+      "ordinal": null,
+      "name": "?EnterScopeInternalBudgetFlags@?$VProfScopeHelper@$01$0A@@@SAP6AXXZPEBDAEAUVProfBudgetGroupCallSite@@AEBVCUtlSourceLocation@@@Z",
+      "hint": 489
+     },
+     {
+      "ordinal": null,
+      "name": "?UnlockReadAccounting@CThreadRWLock_FastRead@@IEAAXPEBDHI@Z",
+      "hint": 1429
+     },
+     {
+      "ordinal": null,
+      "name": "?EncounteredComplexReadLockOperation@CThreadRWLock_FastRead@@IEAA_NI_NPEBDH@Z",
+      "hint": 455
+     },
+     {
+      "ordinal": null,
+      "name": "?HaveWriteLock_BlockReadsNow@CThreadRWLock_FastRead@@QEAAX_N@Z",
+      "hint": 811
+     },
+     {
+      "ordinal": null,
+      "name": "?UnlockWrite@CThreadRWLock_FastRead@@QEAAXPEBDH@Z",
+      "hint": 1432
+     },
+     {
+      "ordinal": null,
+      "name": "??0CThreadRWLock_FastRead@@QEAA@XZ",
+      "hint": 80
+     },
+     {
+      "ordinal": null,
+      "name": "??1CThreadSemaphore@@QEAA@XZ",
+      "hint": 161
+     },
+     {
+      "ordinal": null,
+      "name": "?Wait@CThreadSyncObject@@QEAA_NI@Z",
+      "hint": 1505
+     },
+     {
+      "ordinal": null,
+      "name": "??1CThreadSyncObject@@QEAA@XZ",
+      "hint": 163
+     },
+     {
+      "ordinal": null,
+      "name": "V_StringToFloat64",
+      "hint": 2263
+     },
+     {
+      "ordinal": null,
+      "name": "V_StringToFloat32",
+      "hint": 2261
+     },
+     {
+      "ordinal": null,
+      "name": "V_StringToUint32",
+      "hint": 2276
+     },
+     {
+      "ordinal": null,
+      "name": "V_StringToUint8",
+      "hint": 2279
+     },
+     {
+      "ordinal": null,
+      "name": "_MakeGlobalSymbol",
+      "hint": 2566
+     },
+     {
+      "ordinal": null,
+      "name": "??HCUtlString@@QEBA?AV0@PEBD@Z",
+      "hint": 240
+     },
+     {
+      "ordinal": null,
+      "name": "??YCUtlString@@QEAAAEAV0@PEBD@Z",
+      "hint": 247
+     },
+     {
+      "ordinal": null,
+      "name": "??YCUtlString@@QEAAAEAV0@AEBV0@@Z",
+      "hint": 242
+     },
+     {
+      "ordinal": null,
+      "name": "?TrimRight@CUtlString@@QEAAXPEBD@Z",
+      "hint": 1413
+     },
+     {
+      "ordinal": null,
+      "name": "RandomInt",
+      "hint": 1991
+     },
+     {
+      "ordinal": null,
+      "name": "?AcquireLock@CAtomicMutex@@AEAAXI@Z",
+      "hint": 284
+     },
+     {
+      "ordinal": null,
+      "name": "?ThreadAtomicNotifyOne@@YAXPEBI@Z",
+      "hint": 1391
+     },
+     {
+      "ordinal": null,
+      "name": "UtlVectorMemory_AllocAligned",
+      "hint": 2124
+     },
+     {
+      "ordinal": null,
+      "name": "?ConColorMsg@@YAXAEBVColor@@PEBDZZ",
+      "hint": 394
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_GetLocalTime",
+      "hint": 1806
+     },
+     {
+      "ordinal": null,
+      "name": "V_FloatToString_Unsafe",
+      "hint": 2192
+     },
+     {
+      "ordinal": null,
+      "name": "V_UInt32ToString_Unsafe",
+      "hint": 2300
+     },
+     {
+      "ordinal": null,
+      "name": "V_UInt8ToString_Unsafe",
+      "hint": 2302
+     },
+     {
+      "ordinal": null,
+      "name": "?Assert_ConditionFailed_Fatal@@YAXAEBU_AssertCompileTimeConstantStruct_t@@@Z",
+      "hint": 340
+     },
+     {
+      "ordinal": null,
+      "name": "V_sincosf",
+      "hint": 2468
+     },
+     {
+      "ordinal": null,
+      "name": "??8CUtlString@@QEBA_NAEBV0@@Z",
+      "hint": 233
+     },
+     {
+      "ordinal": null,
+      "name": "?Split@CSplitString@@AEAAXPEBDHPEAPEBDH_N@Z",
+      "hint": 1316
+     },
+     {
+      "ordinal": null,
+      "name": "V_isdigit_str",
+      "hint": 2420
+     },
+     {
+      "ordinal": null,
+      "name": "V_atoi",
+      "hint": 2370
+     },
+     {
+      "ordinal": null,
+      "name": "GetQuantizedFloatEncoderByReg",
+      "hint": 1607
+     },
+     {
+      "ordinal": null,
+      "name": "GetQuantizedFloatEncoderNameByReg",
+      "hint": 1608
+     },
+     {
+      "ordinal": null,
+      "name": "FindOrCreateQuantizedFloatEncoder",
+      "hint": 1576
+     },
+     {
+      "ordinal": null,
+      "name": "?AddNullTermination@CUtlBuffer@@IEAAXXZ",
+      "hint": 294
+     },
+     {
+      "ordinal": null,
+      "name": "??0CUtlBuffer@@QEAA@HHW4BufferFlags_t@0@@Z",
+      "hint": 87
+     },
+     {
+      "ordinal": null,
+      "name": "_MakeGlobalSymbolCaseSensitive",
+      "hint": 2567
+     },
+     {
+      "ordinal": null,
+      "name": "?Replace@CUtlString@@QEBA?AV1@PEBD0_N@Z",
+      "hint": 1138
+     },
+     {
+      "ordinal": null,
+      "name": "?Format@CUtlString@@QEAAHPEBDZZ",
+      "hint": 602
+     },
+     {
+      "ordinal": null,
+      "name": "?SetLength@CUtlString@@QEAAXH@Z",
+      "hint": 1257
+     },
+     {
+      "ordinal": null,
+      "name": "?SetDirect@CUtlString@@QEAAXPEBDH@Z",
+      "hint": 1244
+     },
+     {
+      "ordinal": null,
+      "name": "?Set@CUtlString@@QEAAXPEBD@Z",
+      "hint": 1228
+     },
+     {
+      "ordinal": null,
+      "name": "??ACUtlString@@QEBADH@Z",
+      "hint": 235
+     },
+     {
+      "ordinal": null,
+      "name": "DevWarning",
+      "hint": 1571
+     },
+     {
+      "ordinal": null,
+      "name": "DevMsg",
+      "hint": 1570
+     },
+     {
+      "ordinal": null,
+      "name": "?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@VColor@@PEBDZZ",
+      "hint": 960
+     },
+     {
+      "ordinal": null,
+      "name": "LoggingSystem_Log",
+      "hint": 1670
+     },
+     {
+      "ordinal": null,
+      "name": "LoggingSystem_IsChannelEnabled",
+      "hint": 1669
+     },
+     {
+      "ordinal": null,
+      "name": "CommandLine",
+      "hint": 1545
+     },
+     {
+      "ordinal": null,
+      "name": "?ToLowerFast@CBufferString@@QEAAXH@Z",
+      "hint": 1395
+     },
+     {
+      "ordinal": null,
+      "name": "?Format@CBufferString@@QEAAHPEBDZZ",
+      "hint": 601
+     },
+     {
+      "ordinal": null,
+      "name": "?Insert@CBufferString@@QEAAPEBDHPEBDH_N@Z",
+      "hint": 829
+     },
+     {
+      "ordinal": null,
+      "name": "?SetPtr@CBufferString@@QEAAXPEADHH_N1@Z",
+      "hint": 1270
+     },
+     {
+      "ordinal": null,
+      "name": "MemAlloc_StrDupFunc",
+      "hint": 1709
+     },
+     {
+      "ordinal": null,
+      "name": "V_UnqualifiedFileName",
+      "hint": 2326
+     },
+     {
+      "ordinal": null,
+      "name": "?V_SplitString@@YAXPEBD0AEAV?$CUtlVector@VCUtlString@@HV?$CUtlVectorMemory_Growable@VCUtlString@@H$0A@@@@@_N@Z",
+      "hint": 1467
+     },
+     {
+      "ordinal": null,
+      "name": "V_vsnprintf",
+      "hint": 2539
+     },
+     {
+      "ordinal": null,
+      "name": "?V_stristr_fast@@YAPEBDPEBD0@Z",
+      "hint": 1496
+     },
+     {
+      "ordinal": null,
+      "name": "?Assert_ConditionFailed@@YA_NAEBU_AssertCompileTimeConstantStruct_t@@PEBDZZ",
+      "hint": 339
+     },
+     {
+      "ordinal": null,
+      "name": "?Assert_ConditionFailed@@YA_NAEBU_AssertCompileTimeConstantStruct_t@@@Z",
+      "hint": 338
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_FatalError",
+      "hint": 1771
+     },
+     {
+      "ordinal": null,
+      "name": "?EnterScopeInternalBudgetFlags@?$VProfScopeHelper@$0A@$0A@@@SAP6AXXZPEBDAEAUVProfBudgetGroupCallSite@@AEBVCUtlSourceLocation@@@Z",
+      "hint": 495
+     },
+     {
+      "ordinal": null,
+      "name": "V_StringToInt32",
+      "hint": 2268
+     },
+     {
+      "ordinal": null,
+      "name": "V_StringParseError",
+      "hint": 2258
+     },
+     {
+      "ordinal": null,
+      "name": "?FreeMemoryBlock@CUtlString@@AEAAXXZ",
+      "hint": 634
+     },
+     {
+      "ordinal": null,
+      "name": "UtlRBTree_FailedInsertDuplicate",
+      "hint": 2122
+     },
+     {
+      "ordinal": null,
+      "name": "UtlVectorMemory_FailedAllocation",
+      "hint": 2126
+     },
+     {
+      "ordinal": null,
+      "name": "UtlVectorMemory_Alloc",
+      "hint": 2123
+     },
+     {
+      "ordinal": null,
+      "name": "UtlVectorMemory_CalcNewAllocationCount",
+      "hint": 2125
+     },
+     {
+      "ordinal": null,
+      "name": "?DevMsg@@YAXPEBDZZ",
+      "hint": 430
+     },
+     {
+      "ordinal": null,
+      "name": "Warning",
+      "hint": 2553
+     },
+     {
+      "ordinal": null,
+      "name": "Msg",
+      "hint": 1723
+     },
+     {
+      "ordinal": null,
+      "name": "?Purge@CBufferString@@QEAAXH@Z",
+      "hint": 1048
+     },
+     {
+      "ordinal": null,
+      "name": "?AppendFormatV@CBufferString@@QEAAHPEBDPEAD@Z",
+      "hint": 329
+     },
+     {
+      "ordinal": null,
+      "name": "CMemAllocSystemInitialize",
+      "hint": 1533
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_FloatTime",
+      "hint": 1778
+     },
+     {
+      "ordinal": null,
+      "name": "V_DoubleToString_Unsafe",
+      "hint": 2182
+     },
+     {
+      "ordinal": null,
+      "name": "V_Int64ToString_Unsafe",
+      "hint": 2208
+     },
+     {
+      "ordinal": null,
+      "name": "V_UInt64ToString_Unsafe",
+      "hint": 2301
+     },
+     {
+      "ordinal": null,
+      "name": "V_Int32ToString_Unsafe",
+      "hint": 2207
+     },
+     {
+      "ordinal": null,
+      "name": "V_stricmp_fast",
+      "hint": 2484
+     },
+     {
+      "ordinal": null,
+      "name": "_V_strncmp",
+      "hint": 2592
+     },
+     {
+      "ordinal": null,
+      "name": "_V_strncpy",
+      "hint": 2593
+     },
+     {
+      "ordinal": null,
+      "name": "V_snprintf",
+      "hint": 2473
+     },
+     {
+      "ordinal": null,
+      "name": "V_qsort",
+      "hint": 2457
+     },
+     {
+      "ordinal": null,
+      "name": "g_pMemAlloc",
+      "hint": 2620
+     },
+     {
+      "ordinal": null,
+      "name": "g_pThreadPool",
+      "hint": 2622
+     },
+     {
+      "ordinal": null,
+      "name": "ToolsStallMonitorInternal_EndScope",
+      "hint": 2106
+     },
+     {
+      "ordinal": null,
+      "name": "ToolsStallMonitorInternal_BeginScope",
+      "hint": 2105
+     },
+     {
+      "ordinal": null,
+      "name": "ParallelForSharedCode",
+      "hint": 1726
+     },
+     {
+      "ordinal": null,
+      "name": "ReturnJobManualEventToPool",
+      "hint": 2007
+     },
+     {
+      "ordinal": null,
+      "name": "??0CKeyValuesDumpContextAsDevMsg@@QEAA@H@Z",
+      "hint": 38
+     },
+     {
+      "ordinal": null,
+      "name": "?Dump@KeyValues@@QEAA_NPEAVIKeyValuesDumpContext@@H@Z",
+      "hint": 440
+     },
+     {
+      "ordinal": null,
+      "name": "?GetDataType@KeyValues@@QEBA?AW4types_t@CKeyValues_Data@@PEBD@Z",
+      "hint": 686
+     },
+     {
+      "ordinal": null,
+      "name": "?MakeCopy@KeyValues@@QEBAPEAV1@XZ",
+      "hint": 974
+     },
+     {
+      "ordinal": null,
+      "name": "?ReadAsBinary@KeyValues@@QEAA_NAEAVCUtlBuffer@@@Z",
+      "hint": 1094
+     },
+     {
+      "ordinal": null,
+      "name": "?WriteAsBinary@KeyValues@@QEBA_NAEAVCUtlBuffer@@@Z",
+      "hint": 1518
+     },
+     {
+      "ordinal": null,
+      "name": "?SetUint64@KeyValues@@QEAAXPEBD_K@Z",
+      "hint": 1295
+     },
+     {
+      "ordinal": null,
+      "name": "V_StringToVector2D",
+      "hint": 2281
+     },
+     {
+      "ordinal": null,
+      "name": "V_StringToVector4D",
+      "hint": 2282
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_NonFatalErrorFunc",
+      "hint": 1890
+     },
+     {
+      "ordinal": null,
+      "name": "?ParseToken@CUtlBuffer@@QEAAHPEBUcharacterset_t@@PEADH_N@Z",
+      "hint": 1015
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_RegisterModule",
+      "hint": 1899
+     },
+     {
+      "ordinal": null,
+      "name": "V_qsort_s",
+      "hint": 2458
+     },
+     {
+      "ordinal": null,
+      "name": "g_BitBuf_BitWriteMasks",
+      "hint": 2603
+     },
+     {
+      "ordinal": null,
+      "name": "?StartsWith@CBufferString@@QEBA_NPEBD@Z",
+      "hint": 1325
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_GetEnv",
+      "hint": 1796
+     },
+     {
+      "ordinal": null,
+      "name": "Plat_IsInHeadlessMode",
+      "hint": 1862
+     },
+     {
+      "ordinal": null,
+      "name": "GetThreadLocalStackAllocator",
+      "hint": 1612
+     },
+     {
+      "ordinal": null,
+      "name": "Coroutine_Create",
+      "hint": 1552
+     },
+     {
+      "ordinal": null,
+      "name": "Coroutine_Continue",
+      "hint": 1551
+     },
+     {
+      "ordinal": null,
+      "name": "Coroutine_YieldToMain",
+      "hint": 1554
+     },
+     {
+      "ordinal": null,
+      "name": "?V_strnlen@@YAHPEBDH@Z",
+      "hint": 1497
+     },
+     {
+      "ordinal": null,
+      "name": "?Replace@CBufferString@@QEAAHPEBD0_N@Z",
+      "hint": 1135
+     },
+     {
+      "ordinal": null,
+      "name": "GetDefaultMiniDumpTypeFlags",
+      "hint": 1590
+     },
+     {
+      "ordinal": null,
+      "name": "InvokeMiniDumpHandler",
+      "hint": 1623
+     },
+     {
+      "ordinal": null,
+      "name": "EarlyInit_Tier0",
+      "hint": 1572
+     },
+     {
+      "ordinal": null,
+      "name": "?AppendRepeat@CBufferString@@QEAAPEBDDH_N@Z",
+      "hint": 332
+     },
+     {
+      "ordinal": null,
+      "name": "?Append@CUtlString@@QEAAXPEBDH@Z",
+      "hint": 325
+     },
+     {
+      "ordinal": null,
+      "name": "?UnlockRead_LockForWrite@CThreadRWLock_FastRead@@QEAA?AW4RWLockTranstionResult_t@@PEBDHW4WriteLockTransition_t@1@@Z",
+      "hint": 1431
+     },
+     {
+      "ordinal": null,
+      "name": "?RemoveDotSlashes@CBufferString@@QEAAPEBDD@Z",
+      "hint": 1120
+     },
+     {
+      "ordinal": null,
+      "name": "?ComposeFileName@CBufferString@@QEAAPEBDPEBD0D@Z",
+      "hint": 391
+     },
+     {
+      "ordinal": null,
+      "name": "V_Get_stderr",
+      "hint": 2200
+     },
+     {
+      "ordinal": null,
+      "name": "MemAlloc_ReallocFunc",
+      "hint": 1707
+     },
+     {
+      "ordinal": null,
+      "name": "MemAlloc_StrDupWrapperFunc",
+      "hint": 1710
+     },
+     {
+      "ordinal": null,
+      "name": "V_fmodd",
+      "hint": 2393
+     },
+     {
+      "ordinal": null,
+      "name": "??3KeyValues@@SAXPEAX@Z",
+      "hint": 178
+     },
+     {
+      "ordinal": null,
+      "name": "??2KeyValues@@SAPEAX_K@Z",
+      "hint": 176
+     },
+     {
+      "ordinal": null,
+      "name": "?SetPtr@KeyValues@@QEAAXPEBDPEAX@Z",
+      "hint": 1271
+     },
+     {
+      "ordinal": null,
+      "name": "?SetInt@KeyValues@@QEAAXPEBDH@Z",
+      "hint": 1254
+     },
+     {
+      "ordinal": null,
+      "name": "?SetString@KeyValues@@QEAAXPEBD0@Z",
+      "hint": 1282
+     },
+     {
+      "ordinal": null,
+      "name": "?GetFloat@KeyValues@@QEBAMPEBDM@Z",
+      "hint": 702
+     },
+     {
+      "ordinal": null,
+      "name": "?GetUint64@KeyValues@@QEBA_KPEBD_K@Z",
+      "hint": 784
+     },
+     {
+      "ordinal": null,
+      "name": "?GetNextKey@KeyValues@@QEAAPEAV1@XZ",
+      "hint": 742
+     },
+     {
+      "ordinal": null,
+      "name": "?GetFirstSubKey@KeyValues@@QEAAPEAV1@XZ",
+      "hint": 699
+     },
+     {
+      "ordinal": null,
+      "name": "?AddSubKey@KeyValues@@QEAAXPEAV1@@Z",
+      "hint": 299
+     },
+     {
+      "ordinal": null,
+      "name": "?FindKey@KeyValues@@QEBAPEBV1@PEBD@Z",
+      "hint": 535
+     },
+     {
+      "ordinal": null,
+      "name": "?SetName@KeyValues@@QEAAXPEBD@Z",
+      "hint": 1261
+     },
+     {
+      "ordinal": null,
+      "name": "?GetName@KeyValues@@QEBAPEBDXZ",
+      "hint": 737
+     },
+     {
+      "ordinal": null,
+      "name": "??1KeyValues@@QEAA@XZ",
+      "hint": 174
+     },
+     {
+      "ordinal": null,
+      "name": "??0KeyValues@@QEAA@PEBDPEAVIKeyValuesSystem@@_N@Z",
+      "hint": 122
+     },
+     {
+      "ordinal": null,
+      "name": "??0KeyValues@@QEAA@PEBDW4KV_DISPOSABLE_STRING_TABLE_STATE@0@@Z",
+      "hint": 123
+     },
+     {
+      "ordinal": null,
+      "name": "?Internal_GetString@CKeyValues_Data@@IEAAPEBDPEBDPEAD_K@Z",
+      "hint": 848
+     },
+     {
+      "ordinal": null,
+      "name": "?RemoveAll@CUtlSymbolTable@@QEAAXXZ",
+      "hint": 1117
+     },
+     {
+      "ordinal": null,
+      "name": "?Find@CUtlSymbolTable@@QEBA?AVCUtlSymbol@@PEBD@Z",
+      "hint": 520
+     },
+     {
+      "ordinal": null,
+      "name": "?CheckGet@CUtlBuffer@@IEAA_NH@Z",
+      "hint": 374
+     },
+     {
+      "ordinal": null,
+      "name": "?CheckPut@CUtlBuffer@@IEAA_NH@Z",
+      "hint": 377
+     }
+    ]
+   },
+   {
+    "name": "KERNEL32.dll",
+    "num_functions": 121,
+    "iat_rva": "0x2e6e0d8",
+    "functions": [
+     {
+      "ordinal": null,
+      "name": "ReadConsoleInputW",
+      "hint": 1155
+     },
+     {
+      "ordinal": null,
+      "name": "FindFirstFileExW",
+      "hint": 397
+     },
+     {
+      "ordinal": null,
+      "name": "IsValidCodePage",
+      "hint": 932
+     },
+     {
+      "ordinal": null,
+      "name": "WriteConsoleW",
+      "hint": 1596
+     },
+     {
+      "ordinal": null,
+      "name": "GetModuleFileNameW",
+      "hint": 648
+     },
+     {
+      "ordinal": null,
+      "name": "ExitProcess",
+      "hint": 368
+     },
+     {
+      "ordinal": null,
+      "name": "GetConsoleOutputCP",
+      "hint": 530
+     },
+     {
+      "ordinal": null,
+      "name": "ReadConsoleW",
+      "hint": 1161
+     },
+     {
+      "ordinal": null,
+      "name": "GetConsoleMode",
+      "hint": 526
+     },
+     {
+      "ordinal": null,
+      "name": "ReadFile",
+      "hint": 1164
+     },
+     {
+      "ordinal": null,
+      "name": "SystemTimeToTzSpecificLocalTime",
+      "hint": 1459
+     },
+     {
+      "ordinal": null,
+      "name": "PeekNamedPipe",
+      "hint": 1081
+     },
+     {
+      "ordinal": null,
+      "name": "GetFileInformationByHandle",
+      "hint": 603
+     },
+     {
+      "ordinal": null,
+      "name": "GetDriveTypeW",
+      "hint": 579
+     },
+     {
+      "ordinal": null,
+      "name": "CreateFileW",
+      "hint": 211
+     },
+     {
+      "ordinal": null,
+      "name": "SetEnvironmentVariableW",
+      "hint": 1338
+     },
+     {
+      "ordinal": null,
+      "name": "TerminateProcess",
+      "hint": 1462
+     },
+     {
+      "ordinal": null,
+      "name": "GetCurrentProcess",
+      "hint": 554
+     },
+     {
+      "ordinal": null,
+      "name": "RtlUnwindEx",
+      "hint": 1271
+     },
+     {
+      "ordinal": null,
+      "name": "InterlockedFlushSList",
+      "hint": 901
+     },
+     {
+      "ordinal": null,
+      "name": "InterlockedPushEntrySList",
+      "hint": 903
+     },
+     {
+      "ordinal": null,
+      "name": "GetACP",
+      "hint": 452
+     },
+     {
+      "ordinal": null,
+      "name": "GetOEMCP",
+      "hint": 685
+     },
+     {
+      "ordinal": null,
+      "name": "GetCommandLineA",
+      "hint": 488
+     },
+     {
+      "ordinal": null,
+      "name": "GetCommandLineW",
+      "hint": 489
+     },
+     {
+      "ordinal": null,
+      "name": "GetEnvironmentStringsW",
+      "hint": 587
+     },
+     {
+      "ordinal": null,
+      "name": "FreeEnvironmentStringsW",
+      "hint": 444
+     },
+     {
+      "ordinal": null,
+      "name": "GetProcessHeap",
+      "hint": 715
+     },
+     {
+      "ordinal": null,
+      "name": "SetConsoleCtrlHandler",
+      "hint": 1295
+     },
+     {
+      "ordinal": null,
+      "name": "SetConsoleMode",
+      "hint": 1311
+     },
+     {
+      "ordinal": null,
+      "name": "GetFileSizeEx",
+      "hint": 608
+     },
+     {
+      "ordinal": null,
+      "name": "GetFullPathNameW",
+      "hint": 621
+     },
+     {
+      "ordinal": null,
+      "name": "SetFilePointerEx",
+      "hint": 1353
+     },
+     {
+      "ordinal": null,
+      "name": "GetStartupInfoW",
+      "hint": 744
+     },
+     {
+      "ordinal": null,
+      "name": "SetUnhandledExceptionFilter",
+      "hint": 1431
+     },
+     {
+      "ordinal": null,
+      "name": "UnhandledExceptionFilter",
+      "hint": 1496
+     },
+     {
+      "ordinal": null,
+      "name": "IsDebuggerPresent",
+      "hint": 919
+     },
+     {
+      "ordinal": null,
+      "name": "RtlLookupFunctionEntry",
+      "hint": 1265
+     },
+     {
+      "ordinal": null,
+      "name": "RtlCaptureContext",
+      "hint": 1257
+     },
+     {
+      "ordinal": null,
+      "name": "InitializeSListHead",
+      "hint": 897
+     },
+     {
+      "ordinal": null,
+      "name": "GetSystemTimeAsFileTime",
+      "hint": 769
+     },
+     {
+      "ordinal": null,
+      "name": "GetCPInfo",
+      "hint": 467
+     },
+     {
+      "ordinal": null,
+      "name": "CompareStringEx",
+      "hint": 161
+     },
+     {
+      "ordinal": null,
+      "name": "LCMapStringEx",
+      "hint": 969
+     },
+     {
+      "ordinal": null,
+      "name": "DecodePointer",
+      "hint": 276
+     },
+     {
+      "ordinal": null,
+      "name": "EncodePointer",
+      "hint": 317
+     },
+     {
+      "ordinal": null,
+      "name": "DeleteCriticalSection",
+      "hint": 283
+     },
+     {
+      "ordinal": null,
+      "name": "InitializeCriticalSectionEx",
+      "hint": 894
+     },
+     {
+      "ordinal": null,
+      "name": "LeaveCriticalSection",
+      "hint": 982
+     },
+     {
+      "ordinal": null,
+      "name": "EnterCriticalSection",
+      "hint": 321
+     },
+     {
+      "ordinal": null,
+      "name": "IsProcessorFeaturePresent",
+      "hint": 926
+     },
+     {
+      "ordinal": null,
+      "name": "GetModuleHandleExW",
+      "hint": 651
+     },
+     {
+      "ordinal": null,
+      "name": "SleepConditionVariableSRW",
+      "hint": 1449
+     },
+     {
+      "ordinal": null,
+      "name": "WakeAllConditionVariable",
+      "hint": 1546
+     },
+     {
+      "ordinal": null,
+      "name": "RaiseException",
+      "hint": 1147
+     },
+     {
+      "ordinal": null,
+      "name": "RtlPcToFileHeader",
+      "hint": 1267
+     },
+     {
+      "ordinal": null,
+      "name": "GetStringTypeW",
+      "hint": 751
+     },
+     {
+      "ordinal": null,
+      "name": "InitOnceComplete",
+      "hint": 886
+     },
+     {
+      "ordinal": null,
+      "name": "InitOnceBeginInitialize",
+      "hint": 885
+     },
+     {
+      "ordinal": null,
+      "name": "TryAcquireSRWLockExclusive",
+      "hint": 1487
+     },
+     {
+      "ordinal": null,
+      "name": "AcquireSRWLockShared",
+      "hint": 1
+     },
+     {
+      "ordinal": null,
+      "name": "AcquireSRWLockExclusive",
+      "hint": 0
+     },
+     {
+      "ordinal": null,
+      "name": "ReleaseSRWLockShared",
+      "hint": 1229
+     },
+     {
+      "ordinal": null,
+      "name": "ReleaseSRWLockExclusive",
+      "hint": 1228
+     },
+     {
+      "ordinal": null,
+      "name": "OpenFileMappingA",
+      "hint": 1051
+     },
+     {
+      "ordinal": null,
+      "name": "OpenMutexA",
+      "hint": 1055
+     },
+     {
+      "ordinal": null,
+      "name": "UnmapViewOfFile",
+      "hint": 1499
+     },
+     {
+      "ordinal": null,
+      "name": "MapViewOfFile",
+      "hint": 1015
+     },
+     {
+      "ordinal": null,
+      "name": "WaitForSingleObject",
+      "hint": 1538
+     },
+     {
+      "ordinal": null,
+      "name": "ReleaseMutex",
+      "hint": 1225
+     },
+     {
+      "ordinal": null,
+      "name": "SystemTimeToFileTime",
+      "hint": 1458
+     },
+     {
+      "ordinal": null,
+      "name": "GetSystemTime",
+      "hint": 767
+     },
+     {
+      "ordinal": null,
+      "name": "SetHandleInformation",
+      "hint": 1363
+     },
+     {
+      "ordinal": null,
+      "name": "FlushConsoleInputBuffer",
+      "hint": 432
+     },
+     {
+      "ordinal": null,
+      "name": "GlobalMemoryStatus",
+      "hint": 855
+     },
+     {
+      "ordinal": null,
+      "name": "LoadLibraryW",
+      "hint": 989
+     },
+     {
+      "ordinal": null,
+      "name": "GetTickCount",
+      "hint": 803
+     },
+     {
+      "ordinal": null,
+      "name": "GetCurrentProcessId",
+      "hint": 555
+     },
+     {
+      "ordinal": null,
+      "name": "QueryPerformanceCounter",
+      "hint": 1124
+     },
+     {
+      "ordinal": null,
+      "name": "CloseHandle",
+      "hint": 142
+     },
+     {
+      "ordinal": null,
+      "name": "RtlVirtualUnwind",
+      "hint": 1272
+     },
+     {
+      "ordinal": null,
+      "name": "GetModuleHandleW",
+      "hint": 652
+     },
+     {
+      "ordinal": null,
+      "name": "WriteFile",
+      "hint": 1597
+     },
+     {
+      "ordinal": null,
+      "name": "GetFileType",
+      "hint": 610
+     },
+     {
+      "ordinal": null,
+      "name": "GetStdHandle",
+      "hint": 746
+     },
+     {
+      "ordinal": null,
+      "name": "GetTimeFormatA",
+      "hint": 805
+     },
+     {
+      "ordinal": null,
+      "name": "GetDateFormatA",
+      "hint": 562
+     },
+     {
+      "ordinal": null,
+      "name": "FileTimeToSystemTime",
+      "hint": 380
+     },
+     {
+      "ordinal": null,
+      "name": "GetLocalTime",
+      "hint": 629
+     },
+     {
+      "ordinal": null,
+      "name": "WideCharToMultiByte",
+      "hint": 1577
+     },
+     {
+      "ordinal": null,
+      "name": "MultiByteToWideChar",
+      "hint": 1032
+     },
+     {
+      "ordinal": null,
+      "name": "SetLastError",
+      "hint": 1367
+     },
+     {
+      "ordinal": null,
+      "name": "FindNextFileW",
+      "hint": 414
+     },
+     {
+      "ordinal": null,
+      "name": "FindClose",
+      "hint": 391
+     },
+     {
+      "ordinal": null,
+      "name": "GetCurrentDirectoryW",
+      "hint": 547
+     },
+     {
+      "ordinal": null,
+      "name": "LoadLibraryExW",
+      "hint": 988
+     },
+     {
+      "ordinal": null,
+      "name": "GetProcAddress",
+      "hint": 708
+     },
+     {
+      "ordinal": null,
+      "name": "FreeLibrary",
+      "hint": 445
+     },
+     {
+      "ordinal": null,
+      "name": "TlsFree",
+      "hint": 1481
+     },
+     {
+      "ordinal": null,
+      "name": "TlsSetValue",
+      "hint": 1483
+     },
+     {
+      "ordinal": null,
+      "name": "TlsGetValue",
+      "hint": 1482
+     },
+     {
+      "ordinal": null,
+      "name": "TlsAlloc",
+      "hint": 1480
+     },
+     {
+      "ordinal": null,
+      "name": "InitializeCriticalSectionAndSpinCount",
+      "hint": 893
+     },
+     {
+      "ordinal": null,
+      "name": "GetLastError",
+      "hint": 628
+     },
+     {
+      "ordinal": null,
+      "name": "GetCurrentThreadId",
+      "hint": 559
+     },
+     {
+      "ordinal": null,
+      "name": "GetConsoleCP",
+      "hint": 508
+     },
+     {
+      "ordinal": null,
+      "name": "GetTimeZoneInformation",
+      "hint": 810
+     },
+     {
+      "ordinal": null,
+      "name": "FlsAlloc",
+      "hint": 428
+     },
+     {
+      "ordinal": null,
+      "name": "FlsGetValue",
+      "hint": 430
+     },
+     {
+      "ordinal": null,
+      "name": "FlsSetValue",
+      "hint": 431
+     },
+     {
+      "ordinal": null,
+      "name": "FlsFree",
+      "hint": 429
+     },
+     {
+      "ordinal": null,
+      "name": "CompareStringW",
+      "hint": 163
+     },
+     {
+      "ordinal": null,
+      "name": "LCMapStringW",
+      "hint": 970
+     },
+     {
+      "ordinal": null,
+      "name": "GetLocaleInfoW",
+      "hint": 632
+     },
+     {
+      "ordinal": null,
+      "name": "IsValidLocale",
+      "hint": 934
+     },
+     {
+      "ordinal": null,
+      "name": "GetUserDefaultLCID",
+      "hint": 816
+     },
+     {
+      "ordinal": null,
+      "name": "EnumSystemLocalesW",
+      "hint": 357
+     },
+     {
+      "ordinal": null,
+      "name": "DeleteFileW",
+      "hint": 288
+     },
+     {
+      "ordinal": null,
+      "name": "FlushFileBuffers",
+      "hint": 433
+     },
+     {
+      "ordinal": null,
+      "name": "SetStdHandle",
+      "hint": 1394
+     },
+     {
+      "ordinal": null,
+      "name": "SetEndOfFile",
+      "hint": 1334
+     }
+    ]
+   },
+   {
+    "name": "ADVAPI32.dll",
+    "num_functions": 3,
+    "iat_rva": "0x2e6e000",
+    "functions": [
+     {
+      "ordinal": null,
+      "name": "RegisterEventSourceW",
+      "hint": 699
+     },
+     {
+      "ordinal": null,
+      "name": "ReportEventW",
+      "hint": 717
+     },
+     {
+      "ordinal": null,
+      "name": "DeregisterEventSource",
+      "hint": 237
+     }
+    ]
+   }
+  ]
+ }
+}

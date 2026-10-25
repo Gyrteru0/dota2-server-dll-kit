@@ -1,0 +1,6 @@
+{"ordinal": 1, "name": "BinaryProperties_GetValue", "rva": "0x1dcfe00", "va": "0x181dcfe00", "forwarder": false}
+{"ordinal": 2, "name": "CreateInterface", "rva": "0x2d85b70", "va": "0x182d85b70", "forwarder": false}
+{"ordinal": 3, "name": "ExtractModuleMetadata", "rva": "0x1dd0580", "va": "0x181dd0580", "forwarder": false}
+{"ordinal": 4, "name": "GetResourceManifestCount", "rva": "0x2d9a2e0", "va": "0x182d9a2e0", "forwarder": false}
+{"ordinal": 5, "name": "GetResourceManifests", "rva": "0x2d9a2f0", "va": "0x182d9a2f0", "forwarder": false}
+{"ordinal": 6, "name": "InstallSchemaBindings", "rva": "0x2d9c2d0", "va": "0x182d9c2d0", "forwarder": false}

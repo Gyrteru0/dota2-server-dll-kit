@@ -1,0 +1,30 @@
+# Сам бинарник в репозиторий не кладём (проприетарный код Valve, 84 МБ).
+# Нужен только для `dllkit.py bytes` и пересборки данных — см. tools/get_dll.py
+server.dll
+*.dll
+*.so
+*.pdb
+
+# Тяжёлые дубликаты (в git идёт только data/extras/README.md): пересоздаются командой
+#   python3 tools/build_data.py --dll <путь> --full
+data/extras/*
+!data/extras/README.md
+
+# Кэш индекса функций (пересоздаётся автоматически при первом вызове `dllkit.py func`)
+data/_index/_functions_starts.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# ОС / редакторы
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
